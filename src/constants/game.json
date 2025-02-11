@@ -1,0 +1,2554 @@
+{
+    "data": [
+        {
+            "name": "Top Up Games",
+            "products": [
+                {
+                    "code": "MLBB",
+                    "handle": "mobile-legends",
+                    "title": "Mobile Legends",
+                    "subtitle": "Diamonds",
+                    "publisher": "Moonton",
+                    "thumbnail": "https://cdn.ourastore.com/cc355cc5-83f1-4691-aec1-b879f9c5c2a4.jpg",
+                    "isPopular": true,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MLBBSMILE",
+                    "handle": "mobile-legends-paket-irit",
+                    "title": "Mobile Legends Paket Irit",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Moonton",
+                    "thumbnail": "https://cdn.ourastore.com/5042279a-95ce-4acf-9df5-626554ee4d25.jpg",
+                    "isPopular": true,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PUBGM",
+                    "handle": "pubg-mobile",
+                    "title": "PUBG Mobile",
+                    "subtitle": "PUBG Mobile",
+                    "publisher": "Tencent Games",
+                    "thumbnail": "https://client-cdn.bangjeff.com/b94ea08a-6890-4dfd-8073-7b8479722504.png",
+                    "isPopular": true,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "FF",
+                    "handle": "free-fire",
+                    "title": "Free Fire",
+                    "subtitle": "Instant",
+                    "publisher": "Garena",
+                    "thumbnail": "https://client-cdn.bangjeff.com/2b2b481e-89fe-474f-a27d-be791df405cb.jpg",
+                    "isPopular": true,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "FFMAX",
+                    "handle": "free-fire-max",
+                    "title": "Free Fire MAX",
+                    "subtitle": "Instant",
+                    "publisher": "Garena",
+                    "thumbnail": "https://client-cdn.bangjeff.com/eb2e29bd-78d5-41db-9712-f3e6c55d73a0.jpg",
+                    "isPopular": true,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HONOROFKINGS",
+                    "handle": "honor-of-kings",
+                    "title": "Honor of Kings",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Tencent Games",
+                    "thumbnail": "https://cdn.ourastore.com/3d715234-e5bd-4d95-9a20-9b7eb63a90d8.jpg",
+                    "isPopular": true,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "AGEOFEMPIRE",
+                    "handle": "age-of-empire-mobile",
+                    "title": "Age of Empire (Mobile)",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Level Infinite",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/ageofempire-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PBVIAID",
+                    "handle": "point-blank-id",
+                    "title": "Point Blank",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Zepetto",
+                    "thumbnail": "https://cdn.ourastore.com/2e96a9cd-a740-499e-a140-ff1963c6cf6c.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MAGICCHESSGOGO",
+                    "handle": "magic-chess-go-go",
+                    "title": "Magic Chess Go Go",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Vizta Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/magicchessgogo-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MSA",
+                    "handle": "metal-slug-awakening",
+                    "title": "Metal Slug : Awakening",
+                    "subtitle": "Indonesia",
+                    "publisher": "VNGGAMES",
+                    "thumbnail": "https://client-cdn.bangjeff.com/9470379d-1836-4297-a582-b9f41eaa3789.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "EP",
+                    "handle": "eggy-party",
+                    "title": "EGGY PARTY",
+                    "subtitle": "SEA",
+                    "publisher": "NetEase Games",
+                    "thumbnail": "https://client-cdn.bangjeff.com/0744c20a-06d2-4b0a-af0c-8335897c73a6.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CODM",
+                    "handle": "call-of-duty-mobile",
+                    "title": "Call of Duty Mobile",
+                    "subtitle": "Instant",
+                    "publisher": "Garena",
+                    "thumbnail": "https://client-cdn.bangjeff.com/741e9167-79ff-4e4d-bd71-f9ddb26b173b.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "VALO",
+                    "handle": "valorant",
+                    "title": "Valorant",
+                    "subtitle": "Instant",
+                    "publisher": "Riot Games",
+                    "thumbnail": "https://client-cdn.bangjeff.com/7881fb56-29c7-4baa-9e1e-539615b1d0aa.jpg",
+                    "isPopular": true,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LOL",
+                    "handle": "league-of-legends-wild-rift",
+                    "title": "League of Legends : Wild Rift",
+                    "subtitle": "Instant",
+                    "publisher": "Riot Games",
+                    "thumbnail": "https://client-cdn.bangjeff.com/cc5bf754-7177-44a3-8843-1979db5e0eae.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LOLPC",
+                    "handle": "league-of-legends-pc",
+                    "title": "League of Legends : PC",
+                    "subtitle": "League of Legends : PC",
+                    "publisher": "Riot Games",
+                    "thumbnail": "https://client-cdn.bangjeff.com/fed158d2-cd7e-42d1-b51a-efe4ac4146ae.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "AOV",
+                    "handle": "arena-of-valor",
+                    "title": "Arena of Valor",
+                    "subtitle": "Instant",
+                    "publisher": "Garena",
+                    "thumbnail": "https://client-cdn.bangjeff.com/532e8ca5-1967-46f8-a6b4-bc55aa501a16.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "GENSHIN",
+                    "handle": "genshin-impact",
+                    "title": "Genshin Impact",
+                    "subtitle": "Instant",
+                    "publisher": "HoYoverse",
+                    "thumbnail": "https://client-cdn.bangjeff.com/bbcbed30-004a-490e-80da-6da748fe302f.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ALCSTR",
+                    "handle": "alchemy-stars",
+                    "title": "Alchemy Stars",
+                    "subtitle": "Alchemy Stars",
+                    "publisher": "Tencent Games",
+                    "thumbnail": "https://client-cdn.bangjeff.com/06483660-bc05-4dcb-aabd-25ed52bcb1f0.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ASTRALGUARDIANS",
+                    "handle": "astral-guardians-cyber-fantasy",
+                    "title": "Astral Guardians Cyber Fantasy",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Eyougame",
+                    "thumbnail": "https://cdn.ourastore.com/34de15f5-c20f-4b69-ac09-63edb26f7eeb.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ACER",
+                    "handle": "ace-racer",
+                    "title": "Ace Racer",
+                    "subtitle": "Instant",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://client-cdn.bangjeff.com/17103812-ea71-4963-ab9d-051d2964e4ab.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "AU2MOBILE",
+                    "handle": "au2-mobile",
+                    "title": "AU2 Mobile",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "AU Dance",
+                    "thumbnail": "https://cdn.ourastore.com/72e65cc8-9dfa-4c28-817c-114c598ad330.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "AETHERGAZER",
+                    "handle": "aether-gazer",
+                    "title": "Aether Gazer",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Yostar Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/AetherGazer-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "AGEOFMAGIC",
+                    "handle": "age-of-magic",
+                    "title": "Age of Magic",
+                    "subtitle": "Global",
+                    "publisher": "Playkot LTD",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/ageofmagic-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ASTRAKNIGHTS",
+                    "handle": "astra-knights-of-veda",
+                    "title": "Astra : Knights of Veda",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "HYBE IM",
+                    "thumbnail": "https://cdn.ourastore.com/915314f6-1990-4816-8b40-553714547408.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ARENABREAKOUT",
+                    "handle": "arena-breakout",
+                    "title": "Arena Breakout",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Level Infinite",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/arenabreakout-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ARENABREAKOUTINFINITE",
+                    "handle": "arena-breakout-infinite",
+                    "title": "Arena Breakout Infinite",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Level Infinite",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/arenabreakoutinfinite-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "AFKJOURNEY",
+                    "handle": "afk-journey",
+                    "title": "AFK Journey",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Farlight Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/afkjourney-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "BADLAN",
+                    "handle": "badlanders",
+                    "title": "Badlanders",
+                    "subtitle": "Global",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://client-cdn.bangjeff.com/84f22c88-3b3b-4866-94ba-2e3210c0ae61.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "BLEACH",
+                    "handle": "bleach-mobile-3d",
+                    "title": "BLEACH Mobile 3D",
+                    "subtitle": "Instant",
+                    "publisher": "Koram",
+                    "thumbnail": "https://cdn.bangjeff.com/90dd0ad4-3c1f-45f6-a2a7-f4e9780202f1.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "BLADEXODYSSEY",
+                    "handle": "blade-x-odyssey-of-heroes",
+                    "title": "Blade X Odyssey of Heroes",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Linked Inc",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/bladex-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "BRAWLS",
+                    "handle": "brawl-stars",
+                    "title": "Brawl Stars",
+                    "subtitle": "Brawl Stars",
+                    "publisher": "Supercell",
+                    "thumbnail": "https://client-cdn.bangjeff.com/97449751-7943-45f4-a990-2d7c597fd823.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "BTK",
+                    "handle": "be-the-king",
+                    "title": "Be The King",
+                    "subtitle": "Instant",
+                    "publisher": "HUANG COOL ENTERTAINMENT",
+                    "thumbnail": "https://client-cdn.bangjeff.com/71009b71-b13b-452a-8220-298dbe98f248.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "BLOODSTRIKE",
+                    "handle": "blood-strike",
+                    "title": "Blood Strike",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Wizard Games Global Limited",
+                    "thumbnail": "https://cdn.ourastore.com/f621e797-145a-4d90-b1e2-55b7848e07cd.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "BLOCKMANGO",
+                    "handle": "blockman-go",
+                    "title": "Blockman Go",
+                    "subtitle": "Global",
+                    "publisher": "Blockman Go Studio",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Thumbnail-BlockmanGo-ezgif-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "BATTLEPRIME",
+                    "handle": "battle-prime",
+                    "title": "Battle Prime",
+                    "subtitle": "Global",
+                    "publisher": "Press Fire Games Limited",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/battleprime-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "BLACKCLOVERM",
+                    "handle": "black-clover-m",
+                    "title": "Black Clover M",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Garena",
+                    "thumbnail": "https://cdn.ourastore.com/942d9e0a-e5f8-4001-a795-1060b111ca8a.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CR",
+                    "handle": "clash-royale",
+                    "title": "Clash Royale",
+                    "subtitle": "Clash Royale",
+                    "publisher": "Supercell",
+                    "thumbnail": "https://client-cdn.bangjeff.com/f748ff15-3fb5-4fbe-a60c-e18b0097f92d.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CA",
+                    "handle": "crisis-action",
+                    "title": "Crisis Action",
+                    "subtitle": "Global",
+                    "publisher": "HK HERO ENTERTAINMENT",
+                    "thumbnail": "https://client-cdn.bangjeff.com/a52e510a-9ad0-4d14-8d32-cdbaf7a94cb8.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "COC",
+                    "handle": "clash-of-clans",
+                    "title": "Clash of Clans",
+                    "subtitle": "Clash of Clans",
+                    "publisher": "Supercell",
+                    "thumbnail": "https://client-cdn.bangjeff.com/41e1b5a0-ffac-494f-8104-8bcfbb0de9cb.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CLASHGUYS",
+                    "handle": "clash-guys",
+                    "title": "Clash Guys",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Century Games PTE. LTD.",
+                    "thumbnail": "https://cdn.ourastore.com/4c4e1b39-d928-4308-b89b-b73bad222644.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "COPSNROBBERS",
+                    "handle": "cops-n-robbers",
+                    "title": "Cops N Robbers",
+                    "subtitle": "Global",
+                    "publisher": "Riovox",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/copsnrobbers-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CRYSTALFALL",
+                    "handle": "crystalfall",
+                    "title": "Crystalfall",
+                    "subtitle": "Global",
+                    "publisher": "CRG AB",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/crystafall-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CLOUDSONG",
+                    "handle": "cloud-song",
+                    "title": "Cloud Song : Saga of Skywalkers",
+                    "subtitle": "Instant",
+                    "publisher": "VNG Singapore",
+                    "thumbnail": "https://cdn.bangjeff.com/2128f4cd-89dc-4572-b6c1-b2c46b68b782.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CANDYCRUSHSAGA",
+                    "handle": "candy-crush-saga",
+                    "title": "Candy Crush Saga",
+                    "subtitle": "Global",
+                    "publisher": "King",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/candycrush-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "COLORBANG",
+                    "handle": "colorbang",
+                    "title": "COLORBANG",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "N2 Entertainment",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/colorbang-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "TSUBASAACE",
+                    "handle": "captain-tsubasa-ace",
+                    "title": "Captain Tsubasa : Ace",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "DeNA",
+                    "thumbnail": "https://cdn.ourastore.com/edd9aa51-44ba-425f-bb28-7919fd3fbe97.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CHRONOTRAVELERS",
+                    "handle": "chrono-travelers",
+                    "title": "Chrono Travelers",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "EYOUGAME(US)",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/chronotraveler-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CHIMER",
+                    "handle": "chimeraland",
+                    "title": "Chimeraland",
+                    "subtitle": "Chimeraland",
+                    "publisher": "Proxima Beta Pte. Limited",
+                    "thumbnail": "https://client-cdn.bangjeff.com/18562178-8d2f-4236-9a58-07537c1c47fa.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CHAMET",
+                    "handle": "chamet",
+                    "title": "Chamet",
+                    "subtitle": "Global",
+                    "publisher": "Chamet Team",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/chamet1-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CULINARYTOUR",
+                    "handle": "culinary-tour",
+                    "title": "Culinary Tour",
+                    "subtitle": "Global",
+                    "publisher": "EYOUGAME",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Thumbnail-Culinary-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "CONQUEROR",
+                    "handle": "conquer-online",
+                    "title": "Conquer Online",
+                    "subtitle": "Instant",
+                    "publisher": "NETDRAGON WEBSOFT (HONG KONG) LIMITED",
+                    "thumbnail": "https://cdn.bangjeff.com/21177170-6051-494b-b737-0a475502d609.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "COMMANDANDCONQUER",
+                    "handle": "command-and-conquer-legion",
+                    "title": "Command & Conquer : Legions",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Westwood Studios",
+                    "thumbnail": "https://cdn.ourastore.com/a005eaa4-559f-4ca9-b522-a12a43ce16fe.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "DRACONIASAGA",
+                    "handle": "draconia-saga",
+                    "title": "Draconia Saga",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Sugarfun Game",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/draconia-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "DAYBREAKLEGENDS",
+                    "handle": "daybreak-legends",
+                    "title": "Daybreak Legends",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Linekong Holdings Limited",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/daybreaklegends-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "DRARAJ",
+                    "handle": "dragon-raja",
+                    "title": "Dragon Raja",
+                    "subtitle": "Instant",
+                    "publisher": "Zloong",
+                    "thumbnail": "https://cdn.bangjeff.com/a5a8b221-73c7-49cf-9868-baaffc2a20b8.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "DESTINYMGODDESCENDENS",
+                    "handle": "destiny-m-god-descends",
+                    "title": "Destiny M God Descends",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Yuan Play",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/destinym-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "DELTAFORCE",
+                    "handle": "delta-force",
+                    "title": "Delta Force",
+                    "subtitle": "Global",
+                    "publisher": "Garena",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/deltaforce-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "DRAGONHEIRSILENTGODS",
+                    "handle": "dragonheir-silent-gods",
+                    "title": "Dragonheir Silent Gods",
+                    "subtitle": "Global",
+                    "publisher": "SGRA Studio",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/dragonheir-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "DARKCONTINENTMIST",
+                    "handle": "dark-continent-mist",
+                    "title": "Dark Continent : Mist",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Eyougame",
+                    "thumbnail": "https://cdn.ourastore.com/7c073d5b-db51-4938-900f-701249c0a5c0.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "DCD",
+                    "handle": "dunk-city-dynasty",
+                    "title": "Dunk City Dynasty",
+                    "subtitle": "Dunk City Dynasty",
+                    "publisher": "Netease",
+                    "thumbnail": "https://client-cdn.bangjeff.com/e0b89022-c8f2-4029-acab-5501fc3b1983.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "DEVILMAYCRY",
+                    "handle": "devil-may-cry-peak-of-combat",
+                    "title": "Devil May Cry Peak of Combat",
+                    "subtitle": "Global",
+                    "publisher": "NebulaJoy",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/devilmaycrypeakcombat4-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ESM",
+                    "handle": "ensemble-stars-music",
+                    "title": "Ensemble Stars Music",
+                    "subtitle": "Ensemble Stars Music",
+                    "publisher": "Happy Element Limited",
+                    "thumbnail": "https://client-cdn.bangjeff.com/3d07cf7e-2107-4b2d-a546-68741704267c.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "EUDEMON",
+                    "handle": "eudemons-online",
+                    "title": "Eudemons Online",
+                    "subtitle": "Instant",
+                    "publisher": "NETDRAGON WEBSOFT (HONG KONG) LIMITED",
+                    "thumbnail": "https://cdn.bangjeff.com/c3f1e13f-f945-4cc8-863f-b26939b2c2cd.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ECHO",
+                    "handle": "echocalypse",
+                    "title": "Echocalypse",
+                    "subtitle": "Instant",
+                    "publisher": "YOUZU (SINGAPORE) PTE.LTD",
+                    "thumbnail": "https://cdn.bangjeff.com/73a5e2c8-32c3-473f-b1c5-039b56c5e0f4.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "EOSRED",
+                    "handle": "eos-red",
+                    "title": "EOS Red",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Blue Potion Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/EOSRED-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "FUNNYFIGHTERS",
+                    "handle": "funny-fighters-battle-royale",
+                    "title": "Funny Fighters Battle Royale",
+                    "subtitle": "Global",
+                    "publisher": "LTGAMES GLOBAL",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/funnyfighter-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "FIFA",
+                    "handle": "fc-mobile",
+                    "title": "FC Mobile",
+                    "subtitle": "Indonesia",
+                    "publisher": "EA Sports",
+                    "thumbnail": "https://cdn.ourastore.com/fdae2967-a662-4312-88b6-9ad704050322.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "FARLIGHT",
+                    "handle": "farlight84",
+                    "title": "Farlight 84",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Farlight",
+                    "thumbnail": "https://cdn.ourastore.com/69759bc2-789f-49ab-bc88-0b1bf7bff1b1.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "FM2",
+                    "handle": "football-master-2",
+                    "title": "Football Master 2",
+                    "subtitle": "Instant",
+                    "publisher": "GalaSport",
+                    "thumbnail": "https://cdn.bangjeff.com/309014f3-b20c-46a1-bb78-bb8665823ab8.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "FLASHPARTY",
+                    "handle": "flash-party",
+                    "title": "FLASH PARTY",
+                    "subtitle": "Global",
+                    "publisher": "XD Entertainment Pte Ltd",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/flashparty-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "FORSAKENWORLD2",
+                    "handle": "forsaken-world-2",
+                    "title": "Forsaken World 2",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "VNGGAMES",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/forsakenworld2-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "NIKKE",
+                    "handle": "goddess-of-victory-nikke",
+                    "title": "Goddess of Victory: Nikke",
+                    "subtitle": "1-10 Menit",
+                    "publisher": "SHIFT UP Corporation",
+                    "thumbnail": "https://cdn.bangjeff.com/0e962e3b-4edd-4b1b-9be0-0e01cca20bdf.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "GROWTOPIA",
+                    "handle": "growtopia",
+                    "title": "Growtopia",
+                    "subtitle": "Region Indonesia",
+                    "publisher": "Ubisoft Entertainment",
+                    "thumbnail": "https://cdn.ourastore.com/b856a086-01dc-4bc7-8bea-33272b48dd7f.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "GRANSAGA",
+                    "handle": "gran-saga",
+                    "title": "Gran Saga",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "NPIXEL",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/gransaga-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "GUNSOFGLORY",
+                    "handle": "guns-of-glory",
+                    "title": "Guns of Glory",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "FunPlus International AG",
+                    "thumbnail": "https://cdn.ourastore.com/49968f95-296f-48a1-98c1-6b48524d5367.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "GUILDOFHEROES",
+                    "handle": "guild-of-heroes",
+                    "title": "Guild of Heroes",
+                    "subtitle": "Global",
+                    "publisher": "MYGAMES MENA FZ LLC",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/guildofheroes-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "GU",
+                    "handle": "garena-undawn",
+                    "title": "Garena Undawn",
+                    "subtitle": "Indonesia",
+                    "publisher": "Garena",
+                    "thumbnail": "https://client-cdn.bangjeff.com/70378e94-0b50-4b4e-b2de-b19d14371017.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "GLOBALCITY",
+                    "handle": "global-city",
+                    "title": "Global City",
+                    "subtitle": "Global",
+                    "publisher": "MY GAMES",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/ThumbnailGlobalCity-ezgif-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "GENERATIONZOMBIE",
+                    "handle": "generation-zombie",
+                    "title": "Generation Zombie",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Genereation Zombie Gravity Interactive",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/generationzombie-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "GHOSTSTORYLOVEDESTINY",
+                    "handle": "ghost-story-love-destiny",
+                    "title": "Ghost Story Love Destiny",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "VNG Corporation",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/ezgif.com-optijpeg (2).jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HAGO",
+                    "handle": "hago",
+                    "title": "Hago",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "HAGO",
+                    "thumbnail": "https://cdn.ourastore.com/5873fff1-8205-4693-9978-db3ca444ad62.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HSR",
+                    "handle": "honkai-star-rail",
+                    "title": "Honkai : Star Rail",
+                    "subtitle": "Global",
+                    "publisher": "HoYoverse",
+                    "thumbnail": "https://client-cdn.bangjeff.com/eb34737a-d6c4-4292-8a43-da5892a1dde2.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HI3",
+                    "handle": "honkai-impact-3",
+                    "title": "Honkai Impact 3",
+                    "subtitle": "1-30 Menit",
+                    "publisher": "miHoYo",
+                    "thumbnail": "https://cdn.bangjeff.com/95026951-2bb2-48b2-a3c8-a3310fe5d1d6.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HEROGO",
+                    "handle": "hero-go",
+                    "title": "Hero Go",
+                    "subtitle": "Global",
+                    "publisher": "HUNT Games Company",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/herogo-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HEROES",
+                    "handle": "heroes-evolved",
+                    "title": "Heroes Evolved",
+                    "subtitle": "Instant",
+                    "publisher": "NETDRAGON WEBSOFT (HONG KONG) LIMITED",
+                    "thumbnail": "https://cdn.bangjeff.com/d3aa79cf-7a8e-4304-b82c-ea28f8ed1f34.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HEROCLASH",
+                    "handle": "hero-clash",
+                    "title": "Hero Clash",
+                    "subtitle": "Global",
+                    "publisher": "Bongchuan Network",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/heroclash-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HEAVENBURNSRED",
+                    "handle": "heaven-burns-red",
+                    "title": "Heaven Burns Red",
+                    "subtitle": "Global",
+                    "publisher": "Yostar Limited",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/heavenburnsred-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HARRYPOTTER",
+                    "handle": "harry-potter-magic-awakened",
+                    "title": "Harry Potter Magic Awakened",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://cdn.ourastore.com/902c161e-1ff9-4d82-b437-9affbb323438.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HELLOCAFEIMPIANMU",
+                    "handle": "hello-cafe-cafe-impianmu",
+                    "title": "Hello Cafe Cafe Impianmu",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "VNGGames International",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/hellocafe-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HATSUNEMIKU",
+                    "handle": "hatsune-miku-colorful-stage",
+                    "title": "Hatsune Miku : Colorful Stage",
+                    "subtitle": "Region Indonesia",
+                    "publisher": "Sega",
+                    "thumbnail": "https://cdn.ourastore.com/4fcb3e32-2a7b-4a7e-83a3-759eca8ad81f.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HEROICUNCLEKIM",
+                    "handle": "heroic-uncle-kim",
+                    "title": "Heroic Uncle Kim",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "GA Studio Inc.",
+                    "thumbnail": "https://cdn.ourastore.com/29e43409-21d4-43ba-8ced-460568f259de.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "HAYDAY",
+                    "handle": "hay-day",
+                    "title": "Hay Day",
+                    "subtitle": "Hay Day",
+                    "publisher": "Supercell",
+                    "thumbnail": "https://client-cdn.bangjeff.com/8f21e75c-832b-4669-970e-62709ae0ec12.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ISEKAIFEAST",
+                    "handle": "isekai-feast-tales-of-recipes",
+                    "title": "Isekai Feast Tales of Recipes",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Eyou Game",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/isekaifeast-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "IDV",
+                    "handle": "identity-v",
+                    "title": "Identity V",
+                    "subtitle": "Global",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://client-cdn.bangjeff.com/ad610298-569c-4ee2-a094-5d948f04ad1c.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "INFINITEBORDERS",
+                    "handle": "infinite-borders",
+                    "title": "Infinite Borders",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://cdn.ourastore.com/332c5b1c-47d7-43d3-ac4b-10c3f9a1813b.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "IKEMENPRINCE",
+                    "handle": "ikemen-prince",
+                    "title": "Ikemen Prince",
+                    "subtitle": "Global",
+                    "publisher": "CYBIRD",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/ikemenprince-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "IKEMENVILLAINS",
+                    "handle": "ikemen-villains",
+                    "title": "Ikemen Villains",
+                    "subtitle": "Global",
+                    "publisher": "CYBIRD",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Ikemenvillain-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "IDLE",
+                    "handle": "idle-legends",
+                    "title": "Idle Legends : GODS SAGA",
+                    "subtitle": "Instant",
+                    "publisher": "Eyougame",
+                    "thumbnail": "https://cdn.bangjeff.com/aeaaf1ba-2cdf-419c-b966-23b0e5f930c3.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "IDLEANGELSGODDESSWARFARE",
+                    "handle": "idle-angels-goddess-warfare",
+                    "title": "Idle Angels Goddess Warfare",
+                    "subtitle": "Global",
+                    "publisher": "Neorigin Games Global",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/idleangels-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "JADE",
+                    "handle": "jade-legends",
+                    "title": "Jade Legends Immortal Realm",
+                    "subtitle": "Instant",
+                    "publisher": "EYOUGAME",
+                    "thumbnail": "https://cdn.bangjeff.com/0de3e73d-c1d7-4a77-bb46-57863d667589.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "JUGGERNAUTWARS",
+                    "handle": "juggernaut-wars",
+                    "title": "Juggernaut Wars",
+                    "subtitle": "Global",
+                    "publisher": "My Com BV",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/juggernaut wars.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "JUJUTSUKAISENPHANTOMPARADE",
+                    "handle": "jujutsu-kaisen-phantom-parade",
+                    "title": "Jujutsu Kaisen Phantom Parade",
+                    "subtitle": "Global",
+                    "publisher": "BILIBILI",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/jujutsukaisenphantomparade-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "KINGCHOICE",
+                    "handle": "king-choice",
+                    "title": "King Choice",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "ONEMT",
+                    "thumbnail": "https://cdn.ourastore.com/f12ae1fb-7770-4b4c-a2c7-fa1d029d1441.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "KINGDOMHEROESM",
+                    "handle": "kingdom-heroes-m",
+                    "title": "Kingdom Heroes M",
+                    "subtitle": "Global",
+                    "publisher": "UserJoy Technology",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/kingdomheroesm-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "KINGDOMOTHEBLOOD",
+                    "handle": "kingdom-the-blood",
+                    "title": "Kingdom The Blood",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Linked Inc",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/kingdomtheblood-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "KOK",
+                    "handle": "king-of-kings",
+                    "title": "King of Kings",
+                    "subtitle": "Global",
+                    "publisher": "Archosaur Games",
+                    "thumbnail": "https://client-cdn.bangjeff.com/2b492899-9651-4a59-921e-78f4abefe15b.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "KINGOFAVALON",
+                    "handle": "king-of-avalon",
+                    "title": "King of Avalon",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "FunPlus International AG",
+                    "thumbnail": "https://cdn.ourastore.com/615ac067-19a6-43b9-9107-71dfc6080adf.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LUNA",
+                    "handle": "luna-online-new-world",
+                    "title": "Luna Online New World",
+                    "subtitle": "Instant",
+                    "publisher": "LYTO GAMES",
+                    "thumbnail": "https://client-cdn.bangjeff.com/32c58b6c-1d26-4456-adda-ee71846aece3.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LOR",
+                    "handle": "legends-of-runeterra",
+                    "title": "Legends of Runeterra",
+                    "subtitle": "Global",
+                    "publisher": "Riot Games",
+                    "thumbnail": "https://client-cdn.bangjeff.com/6dad333c-b676-4f52-b173-41da8bbd084b.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LEGACYFATE",
+                    "handle": "legacy-fate-sacred-fearless",
+                    "title": "Legacy Fate : Sacred & Farless",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "EYOU TECHNOLOGY PTE LTD",
+                    "thumbnail": "https://cdn.ourastore.com/d8bf7626-de07-4921-959b-a2dc4c335464.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LEFTTOSURVIVE",
+                    "handle": "left-to-survive",
+                    "title": "Left to Survive",
+                    "subtitle": "Global",
+                    "publisher": "MY Games Holdings",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/lefttosurvive-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LIFEAFTER",
+                    "handle": "life-after",
+                    "title": "Life After",
+                    "subtitle": "Instant",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://cdn.bangjeff.com/16e9d7dd-3709-4d0b-8c72-1064e4fbd3ec.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LYSSAGODDESSOFRAGE",
+                    "handle": "lyssa-goddess-of-rage",
+                    "title": "Lyssa Goddess of Rage",
+                    "subtitle": "Global",
+                    "publisher": "Panoramik Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/lyssagodessofrage-ezgif.com-optijpeg (1).jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LOTNEW",
+                    "handle": "light-of-thel-new-era",
+                    "title": "Light of Thel : New Era",
+                    "subtitle": "Light of Thel : New Era",
+                    "publisher": "Ling Ren Game Limited",
+                    "thumbnail": "https://client-cdn.bangjeff.com/83b284dd-53cf-438e-beca-7d7d09fe302c.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LEGENDOFMUSHROOMRUSH",
+                    "handle": "legend-of-mushroom-rush",
+                    "title": "Legend of Mushroom Rush",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Sparkgame",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/legendofmushroom-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LAPLACE",
+                    "handle": "laplace-m",
+                    "title": "Laplace M",
+                    "subtitle": "Instant",
+                    "publisher": "Zlong",
+                    "thumbnail": "https://cdn.bangjeff.com/77a2cec8-04f2-4a5b-ad7c-ea3da13fa335.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LOVEBRUSH",
+                    "handle": "lovebrush-chronicles",
+                    "title": "Lovebrush Chronicles",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Exptional Global",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Lovebrush-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LOVEANDDEEPSPACE",
+                    "handle": "love-and-deepspace",
+                    "title": "Love and Deepspace",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Papergames",
+                    "thumbnail": "https://cdn.ourastore.com/76e65580-7bd0-4b8d-8faa-9221db85222d.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LANDOFEMPIRES",
+                    "handle": "land-of-empires",
+                    "title": "Land of Empires",
+                    "subtitle": "Global",
+                    "publisher": "Nuverse",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/landofempires-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LORDOFTHERINGS",
+                    "handle": "lord-of-the-rings",
+                    "title": "Lord of The Rings",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Exptional Global",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/lordoftherings-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "LMO",
+                    "handle": "life-makeover",
+                    "title": "Life Makeover",
+                    "subtitle": "Life Makeover",
+                    "publisher": "Famous Heart Limited",
+                    "thumbnail": "https://client-cdn.bangjeff.com/b75f0d2d-56d3-46a6-9a35-e23a866484bc.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MELOJAM",
+                    "handle": "melojam",
+                    "title": "Melojam",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Playpark",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/melojam-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MARD",
+                    "handle": "marvel-duel",
+                    "title": "Marvel Duel",
+                    "subtitle": "Global",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://client-cdn.bangjeff.com/d4dbc5e3-2f15-401e-9a02-3a8f8a52c373.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MAPLESTORY",
+                    "handle": "maplestory-r-evolution",
+                    "title": "MapleStory R : Evolution",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Rastar Games HK",
+                    "thumbnail": "https://cdn.ourastore.com/9f648a0d-a338-4a6c-8381-63e204283176.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MIKO",
+                    "handle": "miko-era",
+                    "title": "Miko Era : Twelve Myths",
+                    "subtitle": "Miko Era : Twelve Myths",
+                    "publisher": "Eyougame",
+                    "thumbnail": "https://client-cdn.bangjeff.com/9d925461-54bf-43b3-9341-120e62a653c0.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MYTHICDAWNMEGAMI",
+                    "handle": "mythic-dawn-13-megami",
+                    "title": "Mythic Dawn 13 Megami",
+                    "subtitle": "Global",
+                    "publisher": "EYOUGAME",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Mythicdawn13megami-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MODERNWARSIPS",
+                    "handle": "modern-warships",
+                    "title": "Modern Warships",
+                    "subtitle": "Global",
+                    "publisher": "Artstorm FZE",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/modernwarships-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MWTTANKBATTLE",
+                    "handle": "mwt-tank-battle",
+                    "title": "MWT Tank Battle",
+                    "subtitle": "Global",
+                    "publisher": "Artstorm FZE",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/mwttankbattle-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MADTALE",
+                    "handle": "madtale",
+                    "title": "Madtale",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Famous Heart Limited",
+                    "thumbnail": "https://cdn.ourastore.com/e4cfd873-e4c5-47ec-82a0-c0edee651f44.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MARSW",
+                    "handle": "marvel-super-war",
+                    "title": "MARVEL Super War",
+                    "subtitle": "Instant",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://cdn.bangjeff.com/54a16d71-f189-412c-b587-5714b993631c.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MARVELRIVALS",
+                    "handle": "marvel-rivals",
+                    "title": "Marvel Rivals",
+                    "subtitle": "Global",
+                    "publisher": "NetEase Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/marvelrivals-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MUO3",
+                    "handle": "mu-origin-3",
+                    "title": "MU Origin 3",
+                    "subtitle": "Instant",
+                    "publisher": "FingerFun",
+                    "thumbnail": "https://cdn.bangjeff.com/f086fa05-b631-41d1-ae88-1d48f01ea9d5.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MIRAGE",
+                    "handle": "mirage-perfect-skyline",
+                    "title": "Mirage : Perfect Skyline",
+                    "subtitle": "1-10 Menit",
+                    "publisher": "EyouGame",
+                    "thumbnail": "https://cdn.bangjeff.com/7b9c20f7-1fdf-437c-87ec-ca0c4f5e6e5f.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MOONLIGHTBLADEM",
+                    "handle": "moonlight-blade-m",
+                    "title": "Moonlight Blade M",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "VNGGames International",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/moonlightblade-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MARSN",
+                    "handle": "marvel-snap",
+                    "title": "Marvel Snap",
+                    "subtitle": "Marvel Snap",
+                    "publisher": "Nuverse",
+                    "thumbnail": "https://cdn.bangjeff.com/80666e9b-b8f3-41d2-b4c3-0f53cfa69522.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MUO2",
+                    "handle": "mu-origin-2",
+                    "title": "MU Origin 2",
+                    "subtitle": "Instant",
+                    "publisher": "Gamenow Technology",
+                    "thumbnail": "https://cdn.bangjeff.com/e2731782-17f7-41e6-845d-21fe6d734da3.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MOBRUSH",
+                    "handle": "mob-rush",
+                    "title": "Mob Rush",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Vizta Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/mobrush-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MONKEYKINGARENAOFHEROES",
+                    "handle": "monkey-king-arena-of-heroes",
+                    "title": "Monkey King Arena of Heroes",
+                    "subtitle": "Global",
+                    "publisher": "Playbest Limited",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/monkeykingarena-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "MISTYCONTINENT",
+                    "handle": "misty-continent",
+                    "title": "Misty Continent",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "FunPlus International AG",
+                    "thumbnail": "https://cdn.ourastore.com/a77cecfa-44c8-49bd-9dc1-b5c82266acd1.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "NBAINFINITE",
+                    "handle": "nba-infinite",
+                    "title": "NBA Infinite",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Level Infinite",
+                    "thumbnail": "https://cdn.ourastore.com/a8eef86f-749e-41c7-8954-f7dcaebe88c8.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "NARUTO",
+                    "handle": "naruto-slugfest-x",
+                    "title": "Naruto : Slugfest X",
+                    "subtitle": "Instant",
+                    "publisher": "Hong Kong Yoyoo Technology Limited",
+                    "thumbnail": "https://cdn.bangjeff.com/b3ca88e5-263b-44e2-b378-faabec708386.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "NARUTOSHIPPUDEN",
+                    "handle": "naruto-shippuden",
+                    "title": "Naruto Shippuden",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Hong Kong Yoyoo Technology",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/narutoshippuden-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "NEVERAFTER",
+                    "handle": "never-after",
+                    "title": "Never After",
+                    "subtitle": "Instant",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://client-cdn.bangjeff.com/fb81c735-8b10-4673-839e-25dfa3ca52e8.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "OVERMORTAL",
+                    "handle": "overmortal",
+                    "title": "Overmortal",
+                    "subtitle": "Global",
+                    "publisher": "LTGAMES GLOBAL",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/overmortal-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ONCEHUMAN",
+                    "handle": "once-human",
+                    "title": "Once Human",
+                    "subtitle": "Global",
+                    "publisher": "NetEase Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/oncehuman-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "OPM",
+                    "handle": "one-punch-man",
+                    "title": "One Punch Man : The Strongest",
+                    "subtitle": "Instant",
+                    "publisher": "FingerFun",
+                    "thumbnail": "https://cdn.bangjeff.com/50b8c697-8f29-4851-967e-b2237e56e4fe.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ONMYOJIARENA",
+                    "handle": "onmyoji-arena",
+                    "title": "Onmyoji Arena",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "NetEase Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/onmyojiarena-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "OMEGA",
+                    "handle": "omega-legends",
+                    "title": "Omega Legends",
+                    "subtitle": "Instant",
+                    "publisher": "IGG",
+                    "thumbnail": "https://cdn.bangjeff.com/421e3443-05f9-4917-8a12-2dcc99a21604.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "OCTOPATHTRAVELER",
+                    "handle": "octopath-traveler-:-cotc",
+                    "title": "Octopath Traveler : COTC",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Square Enix Co.. Ltd.",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/octopath-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PERFECTWORLD",
+                    "handle": "perfect-world-2",
+                    "title": "Perfect World 2",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Perfect World Entertainment",
+                    "thumbnail": "https://cdn.ourastore.com/86c2c2b1-3bcf-45c7-af81-78ef570e8b34.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "POKEMONUNITE",
+                    "handle": "pokemon-unite",
+                    "title": "Pokemon Unite",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "The Pokemon Company",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/pokemonunite-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PUBGMOBILELITE",
+                    "handle": "pubg-mobile-lite",
+                    "title": "PUBG Mobile Lite",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Level Infinite",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/pubglite-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "NSM",
+                    "handle": "pubg-new-state-mobile",
+                    "title": "PUBG : New State Mobile",
+                    "subtitle": "PUBG : New State Mobile",
+                    "publisher": "PUBG Corporation",
+                    "thumbnail": "https://client-cdn.bangjeff.com/8d23cd31-b658-4d21-802f-1a748d46d3af.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PAWRUMBLE",
+                    "handle": "paw-rumble",
+                    "title": "Paw Rumble",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Nuon Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/pawrumble-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PIXELGUN3D",
+                    "handle": "pixel-gun-3d",
+                    "title": "Pixel Gun 3D",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Cubic Games",
+                    "thumbnail": "https://cdn.ourastore.com/0a2d8357-9c37-4992-99ad-8a9e96f91def.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PIXELSTARSHIPS",
+                    "handle": "pixel-starships",
+                    "title": "Pixel Starships",
+                    "subtitle": "Global",
+                    "publisher": "Savy Soda",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Pixelstarship-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PUNISHINGGRAYRAVEN",
+                    "handle": "punishing-gray-raven",
+                    "title": "Punishing Gray Raven",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Kuro Technology",
+                    "thumbnail": "https://cdn.ourastore.com/b9bcf79b-7176-45d4-9979-ec3650c202f0.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PHANTASYSTARONLINE2",
+                    "handle": "phantasy-star-online-2-new-genesis",
+                    "title": "Phantasy Star Online 2 : New Genesis",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "SEGA of America",
+                    "thumbnail": "https://cdn.ourastore.com/8213fdd0-4677-4039-956b-be0849a3da1b.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PATHTONOWHERE",
+                    "handle": "path-to-nowhere",
+                    "title": "Path to Nowhere",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "AISNO Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/pathtonowhere-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "PE",
+                    "handle": "project-entropy",
+                    "title": "Project Entropy",
+                    "subtitle": "Project Entropy",
+                    "publisher": "FunPlus",
+                    "thumbnail": "https://client-cdn.bangjeff.com/ad0bc400-85db-441d-b274-a7251c03d0b5.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "RUSHROYALETOWERDEFENSE",
+                    "handle": "rush-royale-tower-defense",
+                    "title": "Rush Royale Tower Defense",
+                    "subtitle": "Global",
+                    "publisher": "MY GAMES BV",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Rush-Royale-Thumbnail-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "REVE",
+                    "handle": "revelation-infinite-journey",
+                    "title": "Revelation : Infinite Journey",
+                    "subtitle": "Instant",
+                    "publisher": "VNG Corporation",
+                    "thumbnail": "https://client-cdn.bangjeff.com/d5c25802-c00d-4510-bd25-6b81a15d3fdd.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ROOP",
+                    "handle": "ragnarok-origin-package",
+                    "title": "Ragnarok Origin - Package",
+                    "subtitle": "Ragnarok Origin - Package",
+                    "publisher": "Gravity Corporation",
+                    "thumbnail": "https://client-cdn.bangjeff.com/05f1713e-1f2c-4e70-b2d3-642176d46048.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ROM",
+                    "handle": "ragnarok-m",
+                    "title": "Ragnarok M : Eternal Love",
+                    "subtitle": "Instant",
+                    "publisher": "Gravity",
+                    "thumbnail": "https://cdn.bangjeff.com/b43a02d5-805e-4913-af00-703a1b32dfaa.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "RAGNAROKMONSTERWORLD",
+                    "handle": "ragnarok-monster-world",
+                    "title": "Ragnarok Monster World",
+                    "subtitle": "Global",
+                    "publisher": "Zero X and PTE LTD",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/ragnarokmonsterworld-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ROX",
+                    "handle": "ragnarok-x-next-generation",
+                    "title": "Ragnarok X Next Generation",
+                    "subtitle": "Ragnarok X",
+                    "publisher": "PIPO (HK) Limited",
+                    "thumbnail": "https://cdn.bangjeff.com/b0ad914f-ba1e-451d-ae22-d44bdb909c54.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ROO",
+                    "handle": "ragnarok-origin",
+                    "title": "Ragnarok Origin",
+                    "subtitle": "Instant",
+                    "publisher": "Gravity Corporation",
+                    "thumbnail": "https://client-cdn.bangjeff.com/6b577499-f5b8-47d8-991c-e9e70673c7ab.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SNOWBREAK",
+                    "handle": "snowbreak-containment-zone",
+                    "title": "Snowbreak Containment Zone",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Seasun Games Pte. Ltd.",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/snowbreak-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SUPERMECHA",
+                    "handle": "super-mecha-champions",
+                    "title": "Super Mecha Champions",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "NetEase Games",
+                    "thumbnail": "https://cdn.ourastore.com/3bab22c6-1388-478c-9ded-9b2f5736d616.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SPEEDDRIFTERS",
+                    "handle": "speed-drifters",
+                    "title": "Speed Drifters",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Garena",
+                    "thumbnail": "https://cdn.ourastore.com/86870a17-18ae-4c33-a8c3-4fcc67ee9c2d.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SEAL",
+                    "handle": "seal-m-sea",
+                    "title": "Seal M SEA",
+                    "subtitle": "Seal M SEA",
+                    "publisher": "PLAYWITH GAMES Inc",
+                    "thumbnail": "https://client-cdn.bangjeff.com/da8297c5-f7e1-4a12-a87d-89c3c7a8e80c.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SUPERSUS",
+                    "handle": "super-sus",
+                    "title": "Super SUS",
+                    "subtitle": "Instant",
+                    "publisher": "PI Productions PTE.LTD",
+                    "thumbnail": "https://client-cdn.bangjeff.com/ecf4336c-b735-4800-b745-a52474ab37a7.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SOULLANDNEWWORLD",
+                    "handle": "soul-land-new-world",
+                    "title": "Soul Land New World",
+                    "subtitle": "Global",
+                    "publisher": "Ling Chai Limited",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/soulland-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "STORMSHOT",
+                    "handle": "stormshot",
+                    "title": "Stormshot",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "FunPlus International AG",
+                    "thumbnail": "https://cdn.ourastore.com/e6fc0a2e-21a4-4d9e-b342-ca05f5b54b4c.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SUMMONERSKINGDOMGODDESS",
+                    "handle": "summoners-kingdom-goddess",
+                    "title": "Summoners Kingdom Goddess",
+                    "subtitle": "Global",
+                    "publisher": "Cloud Joy",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/summonerskingdom-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SAUSAGE",
+                    "handle": "sausage-man",
+                    "title": "Sausage Man",
+                    "subtitle": "Instant",
+                    "publisher": "X.D. Network",
+                    "thumbnail": "https://cdn.bangjeff.com/2481e97e-e19b-40a3-927c-889716f17ba7.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SAINT",
+                    "handle": "saint-seiya",
+                    "title": "Saint Seiya",
+                    "subtitle": "Instant",
+                    "publisher": "GTarcade",
+                    "thumbnail": "https://cdn.bangjeff.com/1dcc79e2-fa53-4e6c-823a-33d462cea751.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SOS",
+                    "handle": "state-of-survival-zombie-war",
+                    "title": "State of Survival: Zombie War",
+                    "subtitle": "1-5 Menit",
+                    "publisher": "FunPlus",
+                    "thumbnail": "https://cdn.bangjeff.com/0848b0fa-274c-405e-8d9f-187b196f5d2a.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SCROLLOFONMYOJI",
+                    "handle": "scroll-of-onmyoji-sakura-world",
+                    "title": "Scroll of Onmmyoji Sakura & Sword",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Eyougame",
+                    "thumbnail": "https://cdn.ourastore.com/5508e7b3-4c2f-462d-ba8c-49ae7b7478cf.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "SKY",
+                    "handle": "sky-children-of-the-light",
+                    "title": "Sky: Children of the Light",
+                    "subtitle": "Instant",
+                    "publisher": "thatgamecompany, Inc.",
+                    "thumbnail": "https://cdn.bangjeff.com/fdcf3006-6d5b-45a8-a487-04ad2b88665d.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "TAMASHIRISEOFYOKAI",
+                    "handle": "tamashi-rise-of-yokai",
+                    "title": "Tamashi Rise of Yokai",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Eyougame",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/tamashiriseofyokai-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "TACTICOOL",
+                    "handle": "tacticool",
+                    "title": "Tacticool",
+                    "subtitle": "Global",
+                    "publisher": "Panzerdog",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/tacticool-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "T3ARENA",
+                    "handle": "t3-arena",
+                    "title": "T3 Arena",
+                    "subtitle": "Global",
+                    "publisher": "XD Entertainment",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/t3arena-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "TARISLAND",
+                    "handle": "tarisland",
+                    "title": "Tarisland",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Tencent Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Tarisland-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "TOWERBRAWL",
+                    "handle": "tower-brawl",
+                    "title": "Tower Brawl",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "YOUZU (SINGAPORE) PTE.LTD",
+                    "thumbnail": "https://cdn.ourastore.com/fd511f9c-7741-4cd6-853e-d384363a3fb3.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "TR",
+                    "handle": "time-raiders",
+                    "title": "Time Raiders",
+                    "subtitle": "Time Raiders",
+                    "publisher": "YOUZU (SINGAPORE) PTE.LTD",
+                    "thumbnail": "https://client-cdn.bangjeff.com/40cd0c6f-9ce2-4c4f-9f39-3c2d49c21e75.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "TEAMFIGHT",
+                    "handle": "teamfight-tactics-mobile",
+                    "title": "Teamfight Tactics Mobile",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Riot Games",
+                    "thumbnail": "https://cdn.ourastore.com/7152e4f1-307b-4c6e-9488-ee11f64c277b.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "THEANTS",
+                    "handle": "the-ants",
+                    "title": "The Ants",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "StarUnion",
+                    "thumbnail": "https://cdn.ourastore.com/442d3d82-4450-42c1-b197-1622d923f03d.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "TOF",
+                    "handle": "tower-of-fantasy",
+                    "title": "Tower of Fantasy",
+                    "subtitle": "Tower of Fantasy",
+                    "publisher": "Hotta Studio",
+                    "thumbnail": "https://client-cdn.bangjeff.com/a432d22d-5431-4a48-8cd1-0d8da930829f.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "TOMJERRY",
+                    "handle": "tom-and-jerry-chase",
+                    "title": "Tom and Jerry: Chase",
+                    "subtitle": "Instant",
+                    "publisher": "NetEase",
+                    "thumbnail": "https://cdn.bangjeff.com/c49803be-471e-4947-a79f-151f6f4e6239.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "VIDIO",
+                    "handle": "vidio",
+                    "title": "Vidio",
+                    "subtitle": "Instant",
+                    "publisher": "PT Vidio Dot Com",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/vidio.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "WARROBOTS",
+                    "handle": "war-robots",
+                    "title": "War Robots",
+                    "subtitle": "Global",
+                    "publisher": "MY GAMES HOLDINGS",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/warrobots-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "WORLDWARARMIES",
+                    "handle": "world-war-armies",
+                    "title": "World War Armies",
+                    "subtitle": "Global",
+                    "publisher": "Hypemasters, Inc.",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/worldwararmies-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "WHITEOUT",
+                    "handle": "whiteout-survival",
+                    "title": "Whiteout Survival",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Century Games",
+                    "thumbnail": "https://cdn.ourastore.com/6f8d5f0d-fbe3-4398-aa68-1a800b633579.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "WEREWOLF",
+                    "handle": "werewolf-party-game",
+                    "title": "Werewolf Party Game",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Walkman",
+                    "thumbnail": "https://cdn.ourastore.com/bb449775-2144-42d3-8ac3-b2faa6aedb71.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "WORLDWARHEROES",
+                    "handle": "world-war-heroes",
+                    "title": "World War Heroes",
+                    "subtitle": "Global",
+                    "publisher": "Azur Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/worldwarheroes-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "WATCHEROFREALMS",
+                    "handle": "watcher-of-realms",
+                    "title": "Watcher of Realms",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Moonton",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/watcherofrealms-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "WHISPEROFSHADOW",
+                    "handle": "whisper-of-shadow",
+                    "title": "Whisper of Shadow",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Kingame Studio",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/whisperofshadow-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "YS6",
+                    "handle": "ys-6-mobile",
+                    "title": "YS 6 Mobile",
+                    "subtitle": "Instant",
+                    "publisher": "VNG Singapore",
+                    "thumbnail": "https://cdn.bangjeff.com/3f38d5de-e950-42f4-93dc-11c801e7b9b2.webp",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ZEROCITY",
+                    "handle": "zero-city",
+                    "title": "Zero City",
+                    "subtitle": "Global",
+                    "publisher": "MY GAMES BV",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/zerocity1-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ZENLESSZONEZERO",
+                    "handle": "zenless-zone-zero",
+                    "title": "Zenless Zone Zero",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "miHoYo",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/ZZZ-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                },
+                {
+                    "code": "ZEPETO",
+                    "handle": "zepeto",
+                    "title": "ZEPETO",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "NAVER Z Corp",
+                    "thumbnail": "https://cdn.ourastore.com/6452d680-e980-43ff-b70c-59f669eaf6c0.jpg",
+                    "isPopular": false,
+                    "categoryName": "Top Up Games"
+                }
+            ]
+        },
+        {
+            "name": "Joki MLBB",
+            "products": [
+                {
+                    "code": "JOKIECERANMLBB",
+                    "handle": "joki-rank-eceran",
+                    "title": "Joki Rank Eceran",
+                    "subtitle": "Jasa Joki",
+                    "publisher": "Oura Store",
+                    "thumbnail": "https://client-cdn.bangjeff.com/af492870-f9b2-4484-b34b-61ebf692490d.jpg",
+                    "isPopular": true,
+                    "categoryName": "Joki MLBB"
+                },
+                {
+                    "code": "JOKIRANKMLBB",
+                    "handle": "joki-rank-paketan",
+                    "title": "Joki Rank Paketan",
+                    "subtitle": "Jasa Joki",
+                    "publisher": "Oura Store",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/jokipaketanrisingopen-ezgif.com-optijpeg.jpg",
+                    "isPopular": true,
+                    "categoryName": "Joki MLBB"
+                },
+                {
+                    "code": "JOKIMAINBARENGMLBB",
+                    "handle": "joki-main-bareng",
+                    "title": "Joki Main Bareng",
+                    "subtitle": "Jasa Joki",
+                    "publisher": "Oura Store",
+                    "thumbnail": "https://client-cdn.bangjeff.com/01604882-7338-48b0-9fe7-ef53ab678e0f.jpg",
+                    "isPopular": false,
+                    "categoryName": "Joki MLBB"
+                },
+                {
+                    "code": "JOKICLASSICMLBB",
+                    "handle": "joki-classic-mlbb",
+                    "title": "Joki Classic",
+                    "subtitle": "Jasa Joki",
+                    "publisher": "Oura Store",
+                    "thumbnail": "https://client-cdn.bangjeff.com/bdd94570-d963-4f1a-b2f7-3daf627a33e2.jpg",
+                    "isPopular": false,
+                    "categoryName": "Joki MLBB"
+                },
+                {
+                    "code": "JOKIMAGICCHESS",
+                    "handle": "joki-magic-chess",
+                    "title": "Joki Magic Chess",
+                    "subtitle": "Jasa Joki",
+                    "publisher": "Oura Store",
+                    "thumbnail": "https://cdn.ourastore.com/fe8d3c0a-e59d-45ba-a158-546050e9444b.jpg",
+                    "isPopular": false,
+                    "categoryName": "Joki MLBB"
+                }
+            ]
+        },
+        {
+            "name": "Joki HOK",
+            "products": [
+                {
+                    "code": "JOKIECERANHOK",
+                    "handle": "joki-rank-eceran-hok",
+                    "title": "Joki Rank Eceran HOK",
+                    "subtitle": "Jasa Joki",
+                    "publisher": "Oura Store",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Jokieceranhok-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Joki HOK"
+                },
+                {
+                    "code": "JOKIPAKETANHOK",
+                    "handle": "joki-rank-paketan-hok",
+                    "title": "Joki Rank Paketan HOK",
+                    "subtitle": "Jasa Joki",
+                    "publisher": "Oura Store",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Jokipaketanhok-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Joki HOK"
+                },
+                {
+                    "code": "JOKICLASSICHOK",
+                    "handle": "joki-classic-hok",
+                    "title": "Joki Classic HOK",
+                    "subtitle": "Jasa Joki",
+                    "publisher": "Oura Store",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Jokiclassichok-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Joki HOK"
+                },
+                {
+                    "code": "JOKIMAINBARENGHOK",
+                    "handle": "joki-main-bareng-hok",
+                    "title": "Joki Main Bareng HOK",
+                    "subtitle": "Jasa Joki",
+                    "publisher": "Oura Store",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/Jokigendonghok-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Joki HOK"
+                }
+            ]
+        },
+        {
+            "name": "Pulsa & Data",
+            "products": [
+                {
+                    "code": "AXIS",
+                    "handle": "axis",
+                    "title": "Axis",
+                    "subtitle": "Instant",
+                    "publisher": "PT XL Axiata Tbk",
+                    "thumbnail": "https://client-cdn.bangjeff.com/31d5a34c-1f54-4258-a2e8-24af07c5f6ba.jpg",
+                    "isPopular": false,
+                    "categoryName": "Pulsa & Data"
+                },
+                {
+                    "code": "BYU",
+                    "handle": "by-u",
+                    "title": "By U",
+                    "subtitle": "Instant",
+                    "publisher": "Telkomsel",
+                    "thumbnail": "https://client-cdn.bangjeff.com/2e6a3fce-efd0-4890-abbe-1081c75dc16f.jpg",
+                    "isPopular": false,
+                    "categoryName": "Pulsa & Data"
+                },
+                {
+                    "code": "INDOSAT",
+                    "handle": "indosat",
+                    "title": "Indosat",
+                    "subtitle": "Instant",
+                    "publisher": "PT Indosat Tbk",
+                    "thumbnail": "https://client-cdn.bangjeff.com/e99ca93f-8866-4fa7-ad9e-5f1418259633.jpg",
+                    "isPopular": false,
+                    "categoryName": "Pulsa & Data"
+                },
+                {
+                    "code": "SMARTFREN",
+                    "handle": "smartfren",
+                    "title": "Smartfren",
+                    "subtitle": "Smartfren",
+                    "publisher": "PT Smartfren Telecom Tbk",
+                    "thumbnail": "https://client-cdn.bangjeff.com/072808cf-5325-432f-ae95-de84a0443d2e.jpg",
+                    "isPopular": false,
+                    "categoryName": "Pulsa & Data"
+                },
+                {
+                    "code": "THREE",
+                    "handle": "three",
+                    "title": "Three",
+                    "subtitle": "Instant",
+                    "publisher": "PT Indosat Tbk",
+                    "thumbnail": "https://client-cdn.bangjeff.com/53552453-bab1-47fb-adf6-130478884a67.jpg",
+                    "isPopular": false,
+                    "categoryName": "Pulsa & Data"
+                },
+                {
+                    "code": "TSEL",
+                    "handle": "telkomsel",
+                    "title": "Telkomsel",
+                    "subtitle": "Instant",
+                    "publisher": "PT Telekomunikasi Indonesia",
+                    "thumbnail": "https://client-cdn.bangjeff.com/70afd9ec-bf9f-4ff2-89ed-99a3f61c1bdf.jpg",
+                    "isPopular": false,
+                    "categoryName": "Pulsa & Data"
+                },
+                {
+                    "code": "XL",
+                    "handle": "xl",
+                    "title": "XL",
+                    "subtitle": "Instant",
+                    "publisher": "PT XL Axiata Tbk",
+                    "thumbnail": "https://client-cdn.bangjeff.com/b31ebd13-6a45-4d51-bdc5-7fcda47f8811.jpg",
+                    "isPopular": false,
+                    "categoryName": "Pulsa & Data"
+                }
+            ]
+        },
+        {
+            "name": "Voucher",
+            "products": [
+                {
+                    "code": "STEAM",
+                    "handle": "steam-wallet",
+                    "title": "Steam Wallet",
+                    "subtitle": "Instant",
+                    "publisher": "Valve",
+                    "thumbnail": "https://cdn.bangjeff.com/49fdb2f7-41d0-4daa-b115-d75717eaa6f2.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "PB",
+                    "handle": "point-blank",
+                    "title": "Point Blank Voucher",
+                    "subtitle": "Instant",
+                    "publisher": "Zepetto",
+                    "thumbnail": "https://client-cdn.bangjeff.com/8a7c80b5-3b6b-4a51-9fe8-aa34d64e2193.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "PSN",
+                    "handle": "play-station-gc",
+                    "title": "Play Station (PSN Gift Card)",
+                    "subtitle": "Instant",
+                    "publisher": "Sony Interactive Entertainment",
+                    "thumbnail": "https://cdn.bangjeff.com/a7f40e94-cea2-4f5f-8d07-c3ce5064f2e0.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "GOOGLE",
+                    "handle": "google-play",
+                    "title": "Google Play",
+                    "subtitle": "Instant",
+                    "publisher": "Google LLC",
+                    "thumbnail": "https://cdn.bangjeff.com/d28ac44e-a141-47ca-ae84-625c0172bef1.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "PKXDVOUCHER",
+                    "handle": "pk-xd-voucher",
+                    "title": "PK XD Voucher",
+                    "subtitle": "Indonesia",
+                    "publisher": "Afterverse Games",
+                    "thumbnail": "https://cdn.ourastore.com/4be2dbf0-ad8f-4a8f-acaf-f9366d09c361.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "NETFLIX",
+                    "handle": "netflix",
+                    "title": "Netflix",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Netflix, Inc.",
+                    "thumbnail": "https://cdn.ourastore.com/37c84cd7-688f-456c-89db-998fbd467b91.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "ITUNES",
+                    "handle": "itunes",
+                    "title": "iTunes",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Apple Inc",
+                    "thumbnail": "https://cdn.ourastore.com/aa393d25-81fa-47e8-a73d-64d3214e5da8.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "BLACKMYTHWUKONG",
+                    "handle": "black-myth-wukong",
+                    "title": "Black Myth Wukong",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Game Science",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/wukong-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "VIUPREMIUMVOUCHER",
+                    "handle": "viu-premium-voucher",
+                    "title": "VIU Premium Voucher",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "PCCW VUCLIP",
+                    "thumbnail": "https://cdn.ourastore.com/015fa1c1-c422-4b5d-ba60-ea74d455c104.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "CAPCOM",
+                    "handle": "capcom",
+                    "title": "CAPCOM",
+                    "subtitle": "Global",
+                    "publisher": "Capcom Co Ltd.",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/capcomvoucher-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "CRUNCHYROLLVOUCHER",
+                    "handle": "crunchyroll-voucher",
+                    "title": "Crunchyroll Voucher",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Electronic Card Trading LLC",
+                    "thumbnail": "https://cdn.ourastore.com/13d76f17-a6b2-4060-bc80-75609beb2c78.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "ROBLOX",
+                    "handle": "roblox",
+                    "title": "ROBLOX",
+                    "subtitle": "Instant",
+                    "publisher": "Roblox Corporation",
+                    "thumbnail": "https://cdn.ourastore.com/851d17fe-155d-4230-98cc-678dfdd2da56.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "VIDIOVOUCHER",
+                    "handle": "vidio-voucher",
+                    "title": "Vidio Voucher",
+                    "subtitle": "Instant",
+                    "publisher": "Surya Citra Media",
+                    "thumbnail": "https://cdn.bangjeff.com/874cd8e6-eb35-4ce1-a70f-ad556a305a4d.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "WETVVIP",
+                    "handle": "wetv-vip-voucher",
+                    "title": "WeTV VIP Voucher",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Investment HK Limited",
+                    "thumbnail": "https://cdn.ourastore.com/482a40fa-7e0f-4c3e-9abf-182109d1b24e.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "RAZER",
+                    "handle": "razer-gold",
+                    "title": "Razer Gold",
+                    "subtitle": "Instant",
+                    "publisher": "Razer Inc.",
+                    "thumbnail": "https://cdn.bangjeff.com/8352083f-441d-4b02-8c52-2c592d212610.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "FCMOBILEVOUCHER",
+                    "handle": "fc-mobile-voucher",
+                    "title": "FC Mobile Voucher",
+                    "subtitle": "Region Indonesia",
+                    "publisher": "EA Sports",
+                    "thumbnail": "https://cdn.ourastore.com/c357df87-8417-4dfc-b996-93d2e0359869.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "BLIZZARD",
+                    "handle": "blizzard-gift-card",
+                    "title": "Blizzard Gift Card",
+                    "subtitle": "Instant",
+                    "publisher": "Blizzard Entertainment",
+                    "thumbnail": "https://cdn.bangjeff.com/987f946d-df6e-441e-9461-66741edd1b5b.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "EFB",
+                    "handle": "efootball-2024-voucher",
+                    "title": "eFootball 2024 - Voucher",
+                    "subtitle": "eFootball 2023 - Voucher",
+                    "publisher": "KONAMI",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/efootball-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "IMVUVOUCHER",
+                    "handle": "imvu-voucher",
+                    "title": "IMVU Voucher",
+                    "subtitle": "Indonesia",
+                    "publisher": "IMVU, Inc.",
+                    "thumbnail": "https://cdn.ourastore.com/8cc1e204-744a-4774-9f4d-0a82ca25b9e3.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "EAPLAY",
+                    "handle": "ea-play",
+                    "title": "EA Play",
+                    "subtitle": "Global",
+                    "publisher": "Electronic Arts",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/eaplay1-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "FORTNITE",
+                    "handle": "fortnite-v-bucks",
+                    "title": "Fortnite V Bucks",
+                    "subtitle": "Instant",
+                    "publisher": "Epic Games",
+                    "thumbnail": "https://cdn.bangjeff.com/1d082c76-a558-46ef-9286-c23705985c21.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "DISCORD",
+                    "handle": "discord",
+                    "title": "Discord",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Discord Inc.",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/discord-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "HELLOYO",
+                    "handle": "hello-yo",
+                    "title": "Hello Yo Voucher",
+                    "subtitle": "Region Indonesia",
+                    "publisher": "Hello Yo Pte. Ltd.",
+                    "thumbnail": "https://cdn.ourastore.com/acd9ff4b-b10a-46e8-87f5-30f66556c83d.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "HABBOHOTEL",
+                    "handle": "habbo-hotel",
+                    "title": "Habbo Hotel",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "SulakeGames",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/habbo-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "GS",
+                    "handle": "garena-shell",
+                    "title": "Garena Shell",
+                    "subtitle": "Instant",
+                    "publisher": "Garena",
+                    "thumbnail": "https://cdn.bangjeff.com/076fb25e-d8d0-49e5-8610-00b7ed151118.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "BSTATIONVC",
+                    "handle": "bstation-voucher",
+                    "title": "Bstation Voucher",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Bilibili",
+                    "thumbnail": "https://cdn.ourastore.com/a6c14036-be67-4c86-a2a7-a92461f89956.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "MICASH",
+                    "handle": "mi-cash",
+                    "title": "MI Cash",
+                    "subtitle": "Instant",
+                    "publisher": "Megaxus",
+                    "thumbnail": "https://client-cdn.bangjeff.com/602fbc8b-18c5-435e-8272-007c8331a1a6.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "MINECRAFT",
+                    "handle": "minecraft",
+                    "title": "Minecraft",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Mojang",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/mincraft-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "NINTENDO",
+                    "handle": "nintendo",
+                    "title": "Nintendo Eshop",
+                    "subtitle": "Instant",
+                    "publisher": "Nintendo",
+                    "thumbnail": "https://cdn.bangjeff.com/454d5052-9afe-43c1-b3c4-dbf024df0e29.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "RUNESCAPE",
+                    "handle": "runescape",
+                    "title": "Runescape",
+                    "subtitle": "Proses Otomatis",
+                    "publisher": "Jagex Games Studio",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/runescape-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "R2GAMES",
+                    "handle": "r2-games",
+                    "title": "R2 Games",
+                    "subtitle": "Global",
+                    "publisher": "Reality Squared Games",
+                    "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/R2Games-ezgif.com-optijpeg.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "VALOVC",
+                    "handle": "valorant-voucher",
+                    "title": "Valorant - Voucher",
+                    "subtitle": "Instant",
+                    "publisher": "Riot Games",
+                    "thumbnail": "https://client-cdn.bangjeff.com/c0bd92a7-6b9f-4498-bc68-a17a5f2a40a8.jpg",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                },
+                {
+                    "code": "XBOXVC",
+                    "handle": "xbox-gift-card",
+                    "title": "Xbox Gift Card",
+                    "subtitle": "Xbox Gift Card",
+                    "publisher": "Microsoft",
+                    "thumbnail": "https://cdn.bangjeff.com/ffa90df7-3181-4677-b310-b265fa3eea87.webp",
+                    "isPopular": false,
+                    "categoryName": "Voucher"
+                }
+            ]
+        },
+        {
+            "name": "Tagihan",
+            "products": [
+                {
+                    "code": "PLN",
+                    "handle": "token-listrik-pln",
+                    "title": "Token Listrik PLN",
+                    "subtitle": "Instant",
+                    "publisher": "PT PLN",
+                    "thumbnail": "https://client-cdn.bangjeff.com/d7f6dfbe-6fdc-4e23-9957-a1f0d6860a6f.jpg",
+                    "isPopular": false,
+                    "categoryName": "Tagihan"
+                }
+            ]
+        }
+    ]
+}
