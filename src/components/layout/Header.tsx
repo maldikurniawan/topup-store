@@ -42,7 +42,7 @@ const Header = () => {
     return (
         <>
             <header
-                className={`px-4 md:px-[80px] h-20 flex items-center justify-between w-full fixed z-40 transition-all duration-300 py-0 ${scrolled
+                className={`px-4 md:px-[80px] h-20 flex items-center justify-between border-b border-white/10 w-full fixed z-40 transition-all duration-300 py-0 ${scrolled
                     ? "shadow bg-[#1A1A1A90] backdrop-blur-xl"
                     : "shadow-none bg-[#1A1A1A]"
                     }`}
@@ -51,7 +51,7 @@ const Header = () => {
                     <div
                         className="cursor-pointer"
                     >
-                        TOPUP STORE
+                        RAIMEISTORE
                     </div>
                 </div>
 
@@ -59,7 +59,7 @@ const Header = () => {
                     {menu.map((item, itemIdx) => (
                         <div key={itemIdx}>
                             <div
-                                className="text-white rounded-md px-2 py-[8px] hover:bg-green-100 hover:text-white font-medium whitespace-nowrap cursor-pointer"
+                                className="text-white rounded-md px-2 py-[8px] hover:bg-[#333333] hover:text-white font-medium whitespace-nowrap cursor-pointer"
                             >
                                 {item.title}
                             </div>
@@ -79,7 +79,7 @@ const Header = () => {
             <div
                 ref={ref}
                 style={{ right: navOpen ? "0" : "-300px" }}
-                className="fixed z-50 top-0 h-full min-[300px]:w-[300px] bg-gray-600/50 backdrop-blur drop-shadow transition-all"
+                className="fixed z-50 top-0 h-full min-[300px]:w-[300px] bg-black/50 backdrop-blur drop-shadow transition-all"
             >
                 <div className="flex items-center justify-end text-white p-4">
                     <FaXmark
@@ -87,11 +87,11 @@ const Header = () => {
                         onClick={() => setNavOpen(false)}
                     />
                 </div>
-                <div className="p-4 h-96 text-left space-y-8">
+                <div className="p-4 h-96 text-left space-y-2">
                     {menu.map((item, itemIdx) => (
                         <div key={itemIdx}>
                             <div
-                                className="px-6 py-2 text-white hover:bg-[#1A1A1A]/20 font-medium whitespace-nowrap cursor-pointer rounded-lg"
+                                className="px-6 py-2 text-white hover:bg-[#33333390] font-medium whitespace-nowrap cursor-pointer rounded-lg"
                                 onClick={() => setNavOpen(false)} // Close menu after click
                             >
                                 {item.title}

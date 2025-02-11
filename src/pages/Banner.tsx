@@ -3,10 +3,10 @@ import { useState } from "react";
 
 const Banner = () => {
     const [images] = useState([
-        { url: "/images/monster-1.png" },
-        { url: "/images/monster-2.png" },
-        { url: "/images/monster-3.png" },
-        { url: "/images/monster-4.png" },
+        { url: "/images/banner.png" },
+        { url: "/images/banner.png" },
+        { url: "/images/banner.png" },
+        { url: "/images/banner.png" },
     ]);
 
     return (

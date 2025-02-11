@@ -11,22 +11,21 @@ const Popular = () => {
         setVisibleCount((prevCount) => prevCount + 12);
     };
 
-    console.log(popularProducts)
-
     return (
-        <div className="min-h-screen bg-[#1F1F1F] text-white flex flex-col justify-center py-[80px] px-[60px]">
-            <div className="text-center text-xl mb-4">Popular</div>
-            <div className="grid grid-cols-3 gap-4">
+        <div className="min-h-screen bg-[#1F1F1F] text-white flex flex-col justify-center py-[80px] px-4 sm:px-[60px]">
+            <div className="text-start text-xl uppercase">🔥 Popular Now!</div>
+            <div className="text-start text-sm mb-4 ml-7">Here are some of the most popular products right now.</div>
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
                 {popularProducts.slice(0, visibleCount).map((product) => (
-                    <div className="flex bg-white/10 p-2 rounded-xl h-[86px] cursor-pointer hover:border-2 hover:border-[#654321]">
+                    <div className="flex bg-animated border-2 border-[#1A1A1A] p-2 rounded-xl h-auto sm:h-[86px] cursor-pointer hover:border-2 hover:border-[#333333]">
                         <div key={product.code} className="flex h-[70px] w-[70px] flex-col items-center justify-center">
                             <img src={product.thumbnail} alt={product.title} className="object-cover aspect-square rounded-xl" />
                         </div>
-                        <div className="ml-2">
-                            <div className="font-bold">
+                        <div className="ml-2 sm:ml-4 my-auto">
+                            <div className="text-xs sm:text-base font-bold line-clamp-1">
                                 {product.title}
                             </div>
-                            <div>
+                            <div className="text-xs sm:text-base line-clamp-1">
                                 {product.publisher}
                             </div>
                         </div>

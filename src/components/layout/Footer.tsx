@@ -51,15 +51,15 @@ const Footer: React.FC = () => {
     }, {} as Record<string, FooterMenuItem[]>);
 
     return (
-        <div className="px-[1rem] md:px-[60px] bg-[#1F1F1F] pt-4 md:pt-16 text-gray-600">
+        <div className="px-[1rem] md:px-[60px] bg-[#1F1F1F] pt-4 md:pt-16 text-white">
             <div className="mb-10 flex flex-wrap gap-x-8 gap-y-10">
                 {/* Footer Menu */}
                 {Object.entries(groupedMenu).map(([head, links], index) => (
                     <div key={index} className="flex flex-col">
-                        <h4 className="font-bold text-lg text-green-600 mb-4">{head}</h4>
+                        <h4 className="font-bold text-lg text-[#FFFFFF] mb-4">{head}</h4>
                         {links.map((item, i) => (
                             <div key={i} className="mb-2">
-                                <div className="text-sm hover:text-green-500 cursor-pointer">
+                                <div className="text-sm hover:text-white/50 cursor-pointer">
                                     {item.title}
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
 
                 {/* Address Footer */}
                 <div className="flex flex-col w-[42rem]">
-                    <h4 className="font-bold text-lg text-green-600 mb-4">KOSAN</h4>
+                    <h4 className="font-bold text-lg text-[#FFFFFF] mb-4">KOSAN</h4>
                     <p className="text-sm mb-2">{alamatFooter.company}</p>
                     <p className="text-sm mb-2">
                         <strong>ALAMAT:</strong> {alamatFooter.address}
@@ -80,16 +80,16 @@ const Footer: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <div className="py-5 text-xs md:text-sm justify-between w-full font-semibold min-[500px]:flex border-t-[3px] border-black">
+            <div className="py-5 text-xs md:text-sm justify-between w-full min-[500px]:flex border-t-[3px] border-[#333333]">
                 <div className="mb-2">
-                    &copy; {currentYear} <b>Rumah Klaten Asri.</b> All rights reserved
+                    &copy; {currentYear} <b>RAIMEISTORE.</b> All rights reserved
                 </div>
                 <div className="flex gap-4">
                     <a
                         href={sosialFooter.youtube}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:text-green-500"
+                        className="hover:text-white/50"
                     >
                         <FaYoutube size={26} />
                     </a>
@@ -97,7 +97,7 @@ const Footer: React.FC = () => {
                         href={sosialFooter.instagram}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:text-green-500"
+                        className="hover:text-white/50"
                     >
                         <FaInstagram size={26} />
                     </a>
@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
                         href={sosialFooter.twitter}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hover:text-green-500"
+                        className="hover:text-white/50"
                     >
                         <FaTwitter size={26} />
                     </a>
