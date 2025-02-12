@@ -67,7 +67,7 @@ const Carousel: React.FC<CarouselProps> = ({
                                 <img
                                     src={image.url}
                                     alt={`Slide ${index + 1}`}
-                                    className="w-full h-[150px] sm:h-[490px] object-cover rounded-3xl"
+                                    className="w-full h-[150px] sm:h-[250px] md:h-[390px] lg:h-[420px] xl:h-[490px] object-cover rounded-3xl"
                                 />
                             </SwiperSlide>
                         ))}
