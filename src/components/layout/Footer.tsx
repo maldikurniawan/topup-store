@@ -51,7 +51,7 @@ const Footer: React.FC = () => {
     }, {} as Record<string, FooterMenuItem[]>);
 
     return (
-        <div className="px-[1rem] md:px-[60px] bg-[#1F1F1F] pt-4 md:pt-16 text-white">
+        <div className="px-[1rem] md:px-[60px] bg-[#1A1A1A] pt-4 md:pt-16 text-white">
             <div className="mb-10 flex flex-wrap gap-x-8 gap-y-10">
                 {/* Footer Menu */}
                 {Object.entries(groupedMenu).map(([head, links], index) => (

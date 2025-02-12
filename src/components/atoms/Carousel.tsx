@@ -45,10 +45,10 @@ const Carousel: React.FC<CarouselProps> = ({
                     {/* Custom Navigation Buttons */}
                     {navigation && (
                         <>
-                            <button className="swiper-button-prev-custom z-10 absolute top-1/2 cursor-pointer left-2 transform -translate-y-1/2 bg-black/50 text-white p-4 rounded-full shadow-lg">
+                            <button className="swiper-button-prev-custom sm:block hidden z-10 absolute top-1/2 cursor-pointer left-2 transform -translate-y-1/2 bg-black/50 text-white p-4 rounded-full shadow-lg">
                                 <FaChevronLeft className='w-6 h-6' />
                             </button>
-                            <button className="swiper-button-next-custom z-10 absolute top-1/2 cursor-pointer right-2 transform -translate-y-1/2 bg-black/50 text-white p-4 rounded-full shadow-lg">
+                            <button className="swiper-button-next-custom sm:block hidden z-10 absolute top-1/2 cursor-pointer right-2 transform -translate-y-1/2 bg-black/50 text-white p-4 rounded-full shadow-lg">
                                 <FaChevronRight className='w-6 h-6' />
                             </button>
                         </>
@@ -67,7 +67,7 @@ const Carousel: React.FC<CarouselProps> = ({
                                 <img
                                     src={image.url}
                                     alt={`Slide ${index + 1}`}
-                                    className="w-full h-[490px] object-cover rounded-3xl"
+                                    className="w-full h-[150px] sm:h-[490px] object-cover rounded-3xl"
                                 />
                             </SwiperSlide>
                         ))}

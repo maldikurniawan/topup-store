@@ -3,14 +3,16 @@ import { useState } from "react";
 
 const Banner = () => {
     const [images] = useState([
-        { url: "/images/banner.png" },
-        { url: "/images/banner.png" },
-        { url: "/images/banner.png" },
-        { url: "/images/banner.png" },
+        { url: "/images/banner-1.png" },
+        { url: "/images/banner-2.png" },
+        { url: "/images/banner-3.png" },
+        { url: "/images/banner-1.png" },
+        { url: "/images/banner-2.png" },
+        { url: "/images/banner-3.png" },
     ]);
 
     return (
-        <div className="min-h-screen bg-[#1A1A1A] text-white pt-[130px] px-[60px] pb-8">
+        <div className="bg-[#1A1A1A] text-white pt-[94px] pb-4 sm:pt-[130px] px-4 sm:px-[60px] sm:pb-8">
             <Carousel
                 images={images}
                 variant="simple"
