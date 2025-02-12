@@ -39,11 +39,11 @@ const Product = () => {
     return (
         <div className="bg-[#1F1F1F] text-white flex flex-col justify-center pb-10 sm:pb-[80px] px-4 sm:px-[60px]">
             {/* Category Buttons */}
-            <div className="relative w-full mb-4 px-2">
+            <div className="relative w-full mb-4 px-2 lg:px-0">
                 {/* Left Arrow */}
                 <button
                     onClick={() => scroll("left")}
-                    className="absolute left-0 z-10 bg-[#654321] p-1 rounded-md shadow-lg border border-[#333333] hover:bg-[#333333] top-1/2 transform -translate-y-1/2 lg:hidden flex"
+                    className="absolute left-0 z-10 bg-[#9B30FF] p-1 rounded-md shadow-lg border border-[#9B30FF] top-1/2 transform -translate-y-1/2 hidden max-[900px]:flex"
                 >
                     <BiChevronLeft className="text-white" size={40} />
                 </button>
@@ -51,7 +51,7 @@ const Product = () => {
                 {/* Scrollable Buttons Container */}
                 <div
                     ref={scrollRef}
-                    className="flex gap-2 overflow-x-auto scroll-hidden whitespace-nowrap scrollbar-hide px-12"
+                    className="flex gap-2 overflow-x-auto scroll-hidden whitespace-nowrap scrollbar-hide px-12 lg:px-0"
                 >
                     {categories.map((category) => (
                         <button
@@ -60,7 +60,7 @@ const Product = () => {
                                 setSelectedCategory(category);
                                 setVisibleCount(12); // ✅ Reset visible count when switching categories
                             }}
-                            className={`px-4 py-2 rounded-md border border-[#333333] hover:bg-[#333333] ${selectedCategory === category ? 'bg-[#333333]' : ''}`}
+                            className={`px-4 py-2 rounded-md border border-[#333333] ${selectedCategory === category ? 'bg-[#9B30FF]' : 'bg-[#333333]'}`}
                         >
                             {category}
                         </button>
@@ -70,14 +70,14 @@ const Product = () => {
                 {/* Right Arrow */}
                 <button
                     onClick={() => scroll("right")}
-                    className="absolute right-0 z-10 bg-[#654321] p-1 rounded-md shadow-lg border border-[#333333] hover:bg-[#333333] top-1/2 transform -translate-y-1/2 lg:hidden flex"
+                    className="absolute right-0 z-10 bg-[#9B30FF] p-1 rounded-md shadow-lg border border-[#9B30FF] top-1/2 transform -translate-y-1/2 hidden max-[900px]:flex"
                 >
                     <BiChevronRight className="text-white" size={40} />
                 </button>
             </div>
 
             {/* Product Grid */}
-            <div className="grid grid-cols-3 sm:grid-cols-6 gap-4">
+            <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
                 {filteredProducts.slice(0, visibleCount).map((product) => (
                     <div key={product.code}>
                         <img src={product.thumbnail} alt={product.title} className="object-cover aspect-[4/6] rounded-xl" />

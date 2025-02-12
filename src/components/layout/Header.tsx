@@ -11,12 +11,12 @@ const Header = () => {
     const [scrolled, setScrolled] = useState(false);
 
     const menu = [
-        { title: "Beranda", link: "Hero" },
-        { title: "About", link: "About" },
-        { title: "Service", link: "Service" },
-        { title: "Pricing", link: "Pricing" },
-        { title: "FAQ", link: "FAQ" },
-        { title: "Contact", link: "Contact" },
+        { title: "Topup", link: "Lorem" },
+        { title: "Transaction", link: "Lorem" },
+        { title: "Leaderboard", link: "Lorem" },
+        { title: "Calculator", link: "Lorem" },
+        { title: "Login", link: "Lorem" },
+        { title: "Signin", link: "Lorem" },
     ];
 
     useOnClickOutside(ref as any, () => setNavOpen(false));
@@ -76,10 +76,15 @@ const Header = () => {
             </header>
 
             {/* Mobile Navigation */}
+            {navOpen && (
+                <div
+                    className="fixed inset-0 bg-black/50 z-40"
+                />
+            )}
             <div
                 ref={ref}
                 style={{ right: navOpen ? "0" : "-300px" }}
-                className="fixed z-50 top-0 h-full min-[300px]:w-[300px] bg-black/50 backdrop-blur drop-shadow transition-all"
+                className="fixed z-50 top-0 h-full min-[300px]:w-[300px] bg-[#1F1F1F] drop-shadow transition-all"
             >
                 <div className="flex items-center justify-end text-white p-4">
                     <FaXmark

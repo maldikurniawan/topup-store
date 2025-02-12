@@ -41,11 +41,11 @@ const Footer: React.FC = () => {
     }, {} as Record<string, FooterMenuItem[]>);
 
     return (
-        <div className="px-[1rem] md:px-[60px] bg-[#1A1A1A] pt-4 md:pt-16 text-white">
+        <div className="px-[1rem] md:px-[60px] bg-[#1F1F1F] pt-4 md:pt-16 text-white">
             <div className="mb-10 flex flex-wrap gap-x-20 gap-y-10">
                 {/* Footer Menu */}
                 <div className="flex flex-col w-[400px]">
-                    <div className="font-bold text-lg text-[#654321] mb-4">
+                    <div className="font-bold text-lg text-[#9B30FF] mb-4">
                         RAIMEISTORE
                     </div>
                     <div className="text-sm text-justify sm:text-left">
@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
                 </div>
                 {Object.entries(groupedMenu).map(([head, links], index) => (
                     <div key={index} className="flex flex-col">
-                        <h4 className="font-bold text-lg text-[#654321] mb-4">{head}</h4>
+                        <h4 className="font-bold text-lg text-[#9B30FF] mb-4">{head}</h4>
                         {links.map((item, i) => (
                             <div key={i} className="mb-4">
                                 <div className="text-sm hover:text-white/50 cursor-pointer">
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
             </div>
             <div className="py-5 text-xs md:text-sm justify-between w-full min-[500px]:flex border-t-[3px] border-[#333333]">
                 <div className="mb-2">
-                    &copy; {currentYear} <b className="text-[#654321]">RAIMEISTORE.</b> All rights reserved
+                    &copy; {currentYear} <b className="text-[#9B30FF]">RAIMEISTORE.</b> All rights reserved
                 </div>
                 <div className="flex gap-4">
                     <a

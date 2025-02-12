@@ -1,4 +1,4 @@
-import { Banner, Popular, Product } from "@/pages";
+import { Banner, BannerFoot, Popular, Product } from "@/pages";
 import { Footer, Header } from "./components";
 
 export default function App() {
@@ -8,6 +8,7 @@ export default function App() {
       <Banner />
       <Popular />
       <Product />
+      <BannerFoot />
       <Footer />
     </div>
   )
