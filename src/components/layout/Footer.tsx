@@ -1,16 +1,9 @@
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
-import { FiPhoneCall } from "react-icons/fi";
 
 type FooterMenuItem = {
     head: string;
     title: string;
     link: string;
-};
-
-type AlamatFooter = {
-    company: string;
-    address: string;
-    telp: string;
 };
 
 type SosialFooter = {
@@ -23,19 +16,16 @@ const Footer: React.FC = () => {
     const currentYear: number = new Date().getFullYear();
 
     const footerMenu: FooterMenuItem[] = [
-        { head: "MENU", title: "Beranda", link: "Hero" },
-        { head: "MENU", title: "Tentang Kami", link: "About" },
-        { head: "MENU", title: "Pelayanan", link: "Service" },
-        { head: "MENU", title: "Harga", link: "Pricing" },
-        { head: "MENU", title: "FAQ", link: "FAQ" },
-        { head: "MENU", title: "Kontak", link: "Contact" },
+        { head: "Peta Situs", title: "Beranda", link: "Lorem" },
+        { head: "Peta Situs", title: "Cek Transaksi", link: "Lorem" },
+        { head: "Peta Situs", title: "Hubungi Kami", link: "Lorem" },
+        { head: "Peta Situs", title: "Ulasan", link: "Lorem" },
+        { head: "Dukungan", title: "Whatsapp", link: "Lorem" },
+        { head: "Dukungan", title: "Instagram", link: "Lorem" },
+        { head: "Dukungan", title: "Email", link: "Lorem" },
+        { head: "Legalitas", title: "Kebijakan Pribadi", link: "Lorem" },
+        { head: "Legalitas", title: "Syarat & Ketentuan", link: "Lorem" },
     ];
-
-    const alamatFooter: AlamatFooter = {
-        company: "Rumah Klaten Asri",
-        address: "Jl. Kelengkeng 10, Way Huwi, Kec. Jati Agung, Kabupaten Lampung Selatan, Lampung 35365",
-        telp: "0813-6930-4112",
-    };
 
     const sosialFooter: SosialFooter = {
         instagram: "/",
@@ -52,13 +42,21 @@ const Footer: React.FC = () => {
 
     return (
         <div className="px-[1rem] md:px-[60px] bg-[#1A1A1A] pt-4 md:pt-16 text-white">
-            <div className="mb-10 flex flex-wrap gap-x-8 gap-y-10">
+            <div className="mb-10 flex flex-wrap gap-x-20 gap-y-10">
                 {/* Footer Menu */}
+                <div className="flex flex-col w-[400px]">
+                    <div className="font-bold text-lg text-[#654321] mb-4">
+                        RAIMEISTORE
+                    </div>
+                    <div className="text-sm text-justify sm:text-left">
+                    RAIMEISTORE adalah tempat top up games yang aman, murah dan terpercaya. Proses cepat 1-3 Detik. Open 24 jam. Jika ada kendala silahkan klik logo CS pada kanan bawah di website ini.
+                    </div>
+                </div>
                 {Object.entries(groupedMenu).map(([head, links], index) => (
                     <div key={index} className="flex flex-col">
-                        <h4 className="font-bold text-lg text-[#FFFFFF] mb-4">{head}</h4>
+                        <h4 className="font-bold text-lg text-[#654321] mb-4">{head}</h4>
                         {links.map((item, i) => (
-                            <div key={i} className="mb-2">
+                            <div key={i} className="mb-4">
                                 <div className="text-sm hover:text-white/50 cursor-pointer">
                                     {item.title}
                                 </div>
@@ -66,23 +64,10 @@ const Footer: React.FC = () => {
                         ))}
                     </div>
                 ))}
-
-                {/* Address Footer */}
-                <div className="flex flex-col w-[42rem]">
-                    <h4 className="font-bold text-lg text-[#FFFFFF] mb-4">KOSAN</h4>
-                    <p className="text-sm mb-2">{alamatFooter.company}</p>
-                    <p className="text-sm mb-2">
-                        <strong>ALAMAT:</strong> {alamatFooter.address}
-                    </p>
-                    <div className="flex items-center text-sm">
-                        <FiPhoneCall className="mr-2" />
-                        {alamatFooter.telp}
-                    </div>
-                </div>
             </div>
             <div className="py-5 text-xs md:text-sm justify-between w-full min-[500px]:flex border-t-[3px] border-[#333333]">
                 <div className="mb-2">
-                    &copy; {currentYear} <b>RAIMEISTORE.</b> All rights reserved
+                    &copy; {currentYear} <b className="text-[#654321]">RAIMEISTORE.</b> All rights reserved
                 </div>
                 <div className="flex gap-4">
                     <a

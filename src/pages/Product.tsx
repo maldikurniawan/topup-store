@@ -1,5 +1,6 @@
 import productData from "@/constants/product.json";
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
 
 const categories = [
     "Top Up Games",
@@ -22,22 +23,57 @@ const Product = () => {
         setVisibleCount((prevCount) => prevCount + 12);
     };
 
+    const scrollRef = useRef<HTMLDivElement>(null);
+
+    const scroll = (direction: any) => {
+        if (scrollRef.current) {
+            const { scrollLeft, clientWidth } = scrollRef.current;
+            const scrollAmount = clientWidth / 2;
+            scrollRef.current.scrollTo({
+                left: direction === "left" ? scrollLeft - scrollAmount : scrollLeft + scrollAmount,
+                behavior: "smooth"
+            });
+        }
+    };
+
     return (
         <div className="bg-[#1F1F1F] text-white flex flex-col justify-center pb-10 sm:pb-[80px] px-4 sm:px-[60px]">
             {/* Category Buttons */}
-            <div className="flex flex-wrap gap-2 mb-4 justify-start">
-                {categories.map((category) => (
-                    <button
-                        key={category}
-                        onClick={() => {
-                            setSelectedCategory(category);
-                            setVisibleCount(12); // ✅ Reset visible count when switching categories
-                        }}
-                        className={`px-4 py-2 rounded-md border border-[#333333] hover:bg-[#333333] ${selectedCategory === category ? 'bg-[#333333]' : ''}`}
-                    >
-                        {category}
-                    </button>
-                ))}
+            <div className="relative w-full mb-4 px-2">
+                {/* Left Arrow */}
+                <button
+                    onClick={() => scroll("left")}
+                    className="absolute left-0 z-10 bg-[#654321] p-1 rounded-md shadow-lg border border-[#333333] hover:bg-[#333333] top-1/2 transform -translate-y-1/2 lg:hidden flex"
+                >
+                    <BiChevronLeft className="text-white" size={40} />
+                </button>
+
+                {/* Scrollable Buttons Container */}
+                <div
+                    ref={scrollRef}
+                    className="flex gap-2 overflow-x-auto scroll-hidden whitespace-nowrap scrollbar-hide px-12"
+                >
+                    {categories.map((category) => (
+                        <button
+                            key={category}
+                            onClick={() => {
+                                setSelectedCategory(category);
+                                setVisibleCount(12); // ✅ Reset visible count when switching categories
+                            }}
+                            className={`px-4 py-2 rounded-md border border-[#333333] hover:bg-[#333333] ${selectedCategory === category ? 'bg-[#333333]' : ''}`}
+                        >
+                            {category}
+                        </button>
+                    ))}
+                </div>
+
+                {/* Right Arrow */}
+                <button
+                    onClick={() => scroll("right")}
+                    className="absolute right-0 z-10 bg-[#654321] p-1 rounded-md shadow-lg border border-[#333333] hover:bg-[#333333] top-1/2 transform -translate-y-1/2 lg:hidden flex"
+                >
+                    <BiChevronRight className="text-white" size={40} />
+                </button>
             </div>
 
             {/* Product Grid */}

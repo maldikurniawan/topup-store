@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.scroll-hidden::-webkit-scrollbar {
+    display: none;
+}
+
 .bg-animated {
     /* Dark mode colors and gradient */
     background: #121212;
