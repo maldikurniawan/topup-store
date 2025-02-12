@@ -3,12 +3,9 @@ import { useState } from "react";
 
 const Banner = () => {
     const [images] = useState([
-        { url: "/images/banner-1.png" },
-        { url: "/images/banner-2.png" },
-        { url: "/images/banner-3.png" },
-        { url: "/images/banner-1.png" },
-        { url: "/images/banner-2.png" },
-        { url: "/images/banner-3.png" },
+        { url: "/images/coming-soon.jpg" },
+        { url: "/images/coming-soon.jpg" },
+        { url: "/images/coming-soon.jpg" },
     ]);
 
     return (
