@@ -5,8 +5,20 @@ import { FaBalanceScaleLeft, FaBars, FaSearch } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 import { IoIosLogIn } from "react-icons/io";
 import { IoBagHandleOutline, IoPersonAddOutline } from "react-icons/io5";
+import productData from "@/constants/product.json";
 import { MdOutlineLeaderboard } from "react-icons/md";
 import { TbTransactionDollar } from "react-icons/tb";
+
+type Product = {
+    code: string;
+    handle: string;
+    title: string;
+    subtitle: string;
+    publisher: string;
+    thumbnail: string;
+    isPopular: boolean;
+    categoryName: string;
+};
 
 const Header = () => {
     const ref = useRef<HTMLDivElement>(null);
@@ -20,6 +32,24 @@ const Header = () => {
         { title: "Leaderboard", link: "Lorem", icon: <MdOutlineLeaderboard /> },
         { title: "Calculator", link: "Lorem", icon: <FaBalanceScaleLeft /> },
     ];
+
+    const [query, setQuery] = useState("");
+    const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
+
+    const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const value = event.target.value.toLowerCase();
+        setQuery(value);
+
+        if (value.trim() === "") {
+            setFilteredProducts([]);
+            return;
+        }
+
+        const filtered = productData.data[0].products.filter((product) =>
+            product.title.toLowerCase().includes(value)
+        );
+        setFilteredProducts(filtered);
+    };
 
     useOnClickOutside(ref as any, () => setNavOpen(false));
 
@@ -54,10 +84,45 @@ const Header = () => {
                                     <div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
                                         <FaSearch />
                                     </div>
-                                    <input type="text" id="email-address-icon" className="bg-[#333333] text-white text-sm rounded-lg focus:ring-[#9B30FF] focus:border-[#9B30FF] block w-full ps-10 p-1.5" placeholder="Cari Game atau Voucher" />
+                                    <input
+                                        type="text"
+                                        className="bg-[#333333] text-white text-sm rounded-lg focus:ring-[#9B30FF] focus:border-[#9B30FF] block w-full ps-10 p-1.5"
+                                        placeholder="Cari Game atau Voucher"
+                                        value={query}
+                                        onChange={handleSearch}
+                                    />
                                 </div>
                             </form>
 
+                            {/* Search Results */}
+                            {query && (
+                                <div className="absolute mt-2 bg-[#1A1A1A] border border-[#333333] p-3 rounded-l-lg shadow-lg w-full max-h-[400px] overflow-y-auto">
+                                    {filteredProducts.length > 0 ? (
+                                        filteredProducts.map((product) => (
+                                            <div
+                                                key={product.code}
+                                                className="flex items-center gap-4 p-1.5 hover:bg-[#9B30FF50] rounded-lg cursor-pointer"
+                                            >
+                                                <img
+                                                    src={product.thumbnail}
+                                                    alt={product.title}
+                                                    className="h-16 w-16 rounded-xl"
+                                                />
+                                                <div>
+                                                    <p className="text-white text-xs font-semibold">
+                                                        {product.title}
+                                                    </p>
+                                                    <p className="text-gray-400 text-[10px]">
+                                                        {product.subtitle}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        ))
+                                    ) : (
+                                        <p className="text-gray-400 text-xs p-2">Tidak ada hasil ditemukan.</p>
+                                    )}
+                                </div>
+                            )}
                         </div>
                     </div>
                     <div className="hidden md:flex items-center justify-between border-t border-[#333333] w-full px-4">
