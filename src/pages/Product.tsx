@@ -2,6 +2,7 @@ import productData from "@/constants/product.json";
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { BiChevronLeft, BiChevronRight } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const categories = [
     "Top Up Games",
@@ -86,16 +87,18 @@ const Product = () => {
                         transition={{ duration: 0.1 }}
                         className="relative cursor-pointer group rounded-xl border-2 border-[#1F1F1F] hover:border-[#9B30FF] "
                     >
-                        <img
-                            src={product.thumbnail}
-                            alt={product.title}
-                            className="object-cover aspect-[4/6] rounded-xl transition-all duration-100 group-hover:brightness-70"
-                        />
-                        {/* Dark Overlay and Title (Visible on Hover) */}
-                        <div className="absolute bottom-0 w-full p-4 rounded-b-xl bg-gradient-to-t from-black/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-100">
-                            <p className="text-white text-left font-bold line-clamp-1">{product.title}</p>
-                            <p className="text-white text-left text-xs line-clamp-1">{product.publisher}</p>
-                        </div>
+                        <Link to={`/game/${product.code}`}>
+                            <img
+                                src={product.thumbnail}
+                                alt={product.title}
+                                className="object-cover aspect-[4/6] rounded-xl transition-all duration-100 group-hover:brightness-70"
+                            />
+                            {/* Dark Overlay and Title (Visible on Hover) */}
+                            <div className="absolute bottom-0 w-full p-4 pt-10 rounded-b-xl bg-gradient-to-t from-black/90 via-black/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-100">
+                                <p className="text-white text-left font-bold line-clamp-1">{product.title}</p>
+                                <p className="text-gray-400 text-left text-xs line-clamp-1">{product.publisher}</p>
+                            </div>
+                        </Link>
                     </motion.div>
                 ))}
             </div>

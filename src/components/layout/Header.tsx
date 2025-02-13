@@ -1,13 +1,14 @@
 import { useOnClickOutside } from "@/hooks/useOnClickOutside";
 import { useWindowSize } from "@/hooks/useWindowSize";
 import { useEffect, useRef, useState } from "react";
-import { FaBalanceScaleLeft, FaBars, FaSearch } from "react-icons/fa";
+import { FaBalanceScaleLeft, FaBars, FaSearch, FaTimes } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 import { IoIosLogIn } from "react-icons/io";
 import { IoBagHandleOutline, IoPersonAddOutline } from "react-icons/io5";
 import productData from "@/constants/product.json";
 import { MdOutlineLeaderboard } from "react-icons/md";
 import { TbTransactionDollar } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 type Product = {
     code: string;
@@ -25,6 +26,8 @@ const Header = () => {
     const { width } = useWindowSize();
     const [navOpen, setNavOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+    const [query, setQuery] = useState("");
+    const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
 
     const menu = [
         { title: "Topup", link: "Lorem", icon: <IoBagHandleOutline /> },
@@ -32,9 +35,6 @@ const Header = () => {
         { title: "Leaderboard", link: "Lorem", icon: <MdOutlineLeaderboard /> },
         { title: "Calculator", link: "Lorem", icon: <FaBalanceScaleLeft /> },
     ];
-
-    const [query, setQuery] = useState("");
-    const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
 
     const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
         const value = event.target.value.toLowerCase();
@@ -49,6 +49,26 @@ const Header = () => {
             product.title.toLowerCase().includes(value)
         );
         setFilteredProducts(filtered);
+    };
+
+    const clearSearch = () => {
+        setQuery("");
+        setFilteredProducts([]);
+    };
+
+    const highlightMatch = (text: string, query: string) => {
+        if (!query) return text; // Jika query kosong, tampilkan teks biasa
+
+        const regex = new RegExp(`(${query})`, "gi"); // Buat regex untuk pencarian
+        const parts = text.split(regex); // Pisahkan teks berdasarkan query
+
+        return parts.map((part, index) =>
+            regex.test(part) ? (
+                <span key={index} className="text-[#9B30FF]">{part}</span> // Bagian yang cocok berwarna ungu
+            ) : (
+                part
+            )
+        );
     };
 
     useOnClickOutside(ref as any, () => setNavOpen(false));
@@ -91,6 +111,14 @@ const Header = () => {
                                         value={query}
                                         onChange={handleSearch}
                                     />
+                                    {query && (
+                                        <div
+                                            className="absolute inset-y-0 end-0 flex items-center pr-2 cursor-pointer"
+                                            onClick={clearSearch}
+                                        >
+                                            <FaTimes />
+                                        </div>
+                                    )}
                                 </div>
                             </form>
 
@@ -99,7 +127,8 @@ const Header = () => {
                                 <div className="absolute mt-2 bg-[#1A1A1A] border border-[#333333] p-3 rounded-l-lg shadow-lg w-full max-h-[400px] overflow-y-auto">
                                     {filteredProducts.length > 0 ? (
                                         filteredProducts.map((product) => (
-                                            <div
+                                            <Link
+                                                to={`/game/${product.code}`}
                                                 key={product.code}
                                                 className="flex items-center gap-4 p-1.5 hover:bg-[#9B30FF50] rounded-lg cursor-pointer"
                                             >
@@ -109,14 +138,14 @@ const Header = () => {
                                                     className="h-16 w-16 rounded-xl"
                                                 />
                                                 <div>
-                                                    <p className="text-white text-xs font-semibold">
-                                                        {product.title}
+                                                    <p className="text-white font-semibold">
+                                                        {highlightMatch(product.title, query)}
                                                     </p>
-                                                    <p className="text-gray-400 text-[10px]">
-                                                        {product.subtitle}
+                                                    <p className="text-gray-400 text-xs">
+                                                        {product.publisher}
                                                     </p>
                                                 </div>
-                                            </div>
+                                            </Link>
                                         ))
                                     ) : (
                                         <p className="text-gray-400 text-xs p-2">Tidak ada hasil ditemukan.</p>
@@ -129,7 +158,7 @@ const Header = () => {
                         {/* Left Side - Menu */}
                         <div className="flex items-center gap-x-4">
                             {menu.map((item, itemIdx) => (
-                                <div key={itemIdx} className="text-white hover:text-[#9B30FF] flex items-center gap-1 py-[8px] font-medium whitespace-nowrap text-sm lg:text-base cursor-pointer border-b-2 border-transparent hover:border-[#9B30FF] transition-all duration-200">
+                                <div key={itemIdx} className="text-white hover:text-[#9B30FF] flex items-center gap-1 py-[9px] font-medium whitespace-nowrap text-sm cursor-pointer border-b-2 border-transparent hover:border-[#9B30FF] transition-all duration-200">
                                     {item.icon}
                                     <span>{item.title}</span>
                                 </div>
@@ -137,11 +166,11 @@ const Header = () => {
                         </div>
                         {/* Right Side - Authentication */}
                         <div className="flex gap-x-4">
-                            <div className="text-white hover:text-[#9B30FF] flex items-center gap-1 py-[8px] font-medium whitespace-nowrap cursor-pointer border-b-2 text-sm lg:text-base border-transparent hover:border-[#9B30FF] transition-all duration-200">
+                            <div className="text-white hover:text-[#9B30FF] flex items-center gap-1 py-[9px] font-medium whitespace-nowrap cursor-pointer border-b-2 text-sm border-transparent hover:border-[#9B30FF] transition-all duration-200">
                                 <IoIosLogIn />
                                 <span>Masuk</span>
                             </div>
-                            <div className="text-white hover:text-[#9B30FF] flex items-center gap-1 py-[8px] font-medium whitespace-nowrap cursor-pointer border-b-2 text-sm lg:text-base border-transparent hover:border-[#9B30FF] transition-all duration-200">
+                            <div className="text-white hover:text-[#9B30FF] flex items-center gap-1 py-[9px] font-medium whitespace-nowrap cursor-pointer border-b-2 text-sm border-transparent hover:border-[#9B30FF] transition-all duration-200">
                                 <IoPersonAddOutline />
                                 <span>Daftar</span>
                             </div>

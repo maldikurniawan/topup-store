@@ -1,5 +1,6 @@
 import productData from "@/constants/product.json";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Popular = () => {
     const [visibleCount, setVisibleCount] = useState(12);
@@ -17,7 +18,11 @@ const Popular = () => {
             <div className="text-start text-xs mb-4 ml-7">Here are some of the most popular products right now.</div>
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
                 {popularProducts.slice(0, visibleCount).map((product) => (
-                    <div key={product.code} className="flex items-center bg-animated border-2 border-[#1A1A1A] p-2 rounded-xl cursor-pointer hover:border-[#9B30FF]">
+                    <Link
+                        to={`/game/${product.code}`}
+                        key={product.code}
+                        className="flex items-center bg-animated border-2 border-[#1A1A1A] p-2 rounded-xl cursor-pointer hover:border-[#9B30FF]"
+                    >
                         <div className="h-14 w-14 sm:h-[80px] sm:w-[80px] flex items-center justify-center">
                             <img src={product.thumbnail} alt={product.title} className="object-cover aspect-square rounded-xl" />
                         </div>
@@ -25,11 +30,11 @@ const Popular = () => {
                             <div className="text-[10px] sm:text-base font-semibold line-clamp-1">
                                 {product.title}
                             </div>
-                            <div className="text-[9px] sm:text-sm line-clamp-1">
+                            <div className="text-[9px] text-gray-400 sm:text-sm line-clamp-1">
                                 {product.publisher}
                             </div>
                         </div>
-                    </div>
+                    </Link>
                 ))}
             </div>
             {visibleCount < popularProducts.length && (
