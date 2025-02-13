@@ -1,13 +1,13 @@
 import Banner from "./Banner";
 import BannerFoot from "./BannerFoot";
-import DetailGame from "./DetailGame";
+import DetailTopUp from "./DetailTopUp";
 import Popular from "./Popular";
 import Product from "./Product";
 
 export {
     Banner,
     BannerFoot,
-    DetailGame,
+    DetailTopUp,
     Popular,
     Product,
 };

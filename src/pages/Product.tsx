@@ -87,7 +87,7 @@ const Product = () => {
                         transition={{ duration: 0.1 }}
                         className="relative cursor-pointer group rounded-xl border-2 border-[#1F1F1F] hover:border-[#9B30FF] "
                     >
-                        <Link to={`/game/${product.code}`}>
+                        <Link to={`/topup/${product.code}`}>
                             <img
                                 src={product.thumbnail}
                                 alt={product.title}
@@ -95,7 +95,7 @@ const Product = () => {
                             />
                             {/* Dark Overlay and Title (Visible on Hover) */}
                             <div className="absolute bottom-0 w-full p-4 pt-10 rounded-b-xl bg-gradient-to-t from-black/90 via-black/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-100">
-                                <p className="text-white text-left font-bold line-clamp-1">{product.title}</p>
+                                <p className="text-white text-left font-semibold line-clamp-1">{product.title}</p>
                                 <p className="text-gray-400 text-left text-xs line-clamp-1">{product.publisher}</p>
                             </div>
                         </Link>

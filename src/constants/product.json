@@ -170,7 +170,7 @@
                     "subtitle": "Instant",
                     "publisher": "HoYoverse",
                     "thumbnail": "https://client-cdn.bangjeff.com/bbcbed30-004a-490e-80da-6da748fe302f.jpg",
-                    "isPopular": false,
+                    "isPopular": true,
                     "categoryName": "Top Up Games"
                 },
                 {
@@ -820,7 +820,7 @@
                     "subtitle": "Global",
                     "publisher": "HoYoverse",
                     "thumbnail": "https://client-cdn.bangjeff.com/eb34737a-d6c4-4292-8a43-da5892a1dde2.webp",
-                    "isPopular": false,
+                    "isPopular": true,
                     "categoryName": "Top Up Games"
                 },
                 {
@@ -2035,7 +2035,7 @@
                     "subtitle": "Jasa Joki",
                     "publisher": "Oura Store",
                     "thumbnail": "https://client-cdn.bangjeff.com/af492870-f9b2-4484-b34b-61ebf692490d.jpg",
-                    "isPopular": true,
+                    "isPopular": false,
                     "categoryName": "Joki MLBB"
                 },
                 {
@@ -2045,7 +2045,7 @@
                     "subtitle": "Jasa Joki",
                     "publisher": "Oura Store",
                     "thumbnail": "https://cdn.ourastore.com/ourastore.com/product/jokipaketanrisingopen-ezgif.com-optijpeg.jpg",
-                    "isPopular": true,
+                    "isPopular": false,
                     "categoryName": "Joki MLBB"
                 },
                 {

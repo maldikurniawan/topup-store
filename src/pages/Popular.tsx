@@ -19,7 +19,7 @@ const Popular = () => {
             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
                 {popularProducts.slice(0, visibleCount).map((product) => (
                     <Link
-                        to={`/game/${product.code}`}
+                        to={`/topup/${product.code}`}
                         key={product.code}
                         className="flex items-center bg-animated border-2 border-[#1A1A1A] p-2 rounded-xl cursor-pointer hover:border-[#9B30FF]"
                     >

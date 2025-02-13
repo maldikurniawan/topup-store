@@ -97,7 +97,7 @@ const Header = () => {
             >
                 <div className="flex flex-col w-full">
                     <div className="flex items-center gap-4 text-white my-3.5">
-                        <div className="cursor-pointer text-xl md:text-3xl font-bold text-[#9B30FF]">RAIMEISTORE</div>
+                        <Link to={"/"} className="cursor-pointer text-xl md:text-3xl font-bold text-[#9B30FF]">RAIMEISTORE</Link>
                         <div className="relative flex-1 rounded-xl hidden md:block">
                             <form className="w-full">
                                 <div className="relative">
@@ -128,7 +128,7 @@ const Header = () => {
                                     {filteredProducts.length > 0 ? (
                                         filteredProducts.map((product) => (
                                             <Link
-                                                to={`/game/${product.code}`}
+                                                to={`/topup/${product.code}`}
                                                 key={product.code}
                                                 className="flex items-center gap-4 p-1.5 hover:bg-[#9B30FF50] rounded-lg cursor-pointer"
                                             >
