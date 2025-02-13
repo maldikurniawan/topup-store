@@ -39,15 +39,15 @@ export default function DetailTopUp() {
                         <img src={topup.thumbnail} alt={topup.title} className="object-cover aspect-square rounded-xl" />
                     </div>
                     <div>
-                        <p className="text-white text-xl font-bold uppercase whitespace-nowrap">{topup.title}</p>
-                        <p className="my-1">{topup.publisher}</p>
+                        <p className="text-white font-bold uppercase">{topup.title}</p>
+                        <p className="my-1 text-gray-400">{topup.publisher}</p>
                         <div className="flex md:flex-row flex-col gap-x-4">
                             <div className="text-white flex items-center gap-1 font-medium whitespace-nowrap">
-                                <FaBoltLightning className="text-yellow-500" />
+                                <FaBoltLightning className="text-yellow-400" />
                                 <span>Proses Cepat</span>
                             </div>
                             <div className="text-white flex items-center gap-1 font-medium whitespace-nowrap">
-                                <IoIosChatbubbles className="text-green-500" />
+                                <IoIosChatbubbles className="text-green-400" />
                                 <span>Layanan Chat 24/7</span>
                             </div>
                             <div className="text-white flex items-center gap-1 font-medium whitespace-nowrap">
@@ -60,16 +60,20 @@ export default function DetailTopUp() {
 
                 {/* Price Section */}
                 <div className="mx-auto px-4 sm:px-[50px] py-8">
-                    <div className="space-y-8 bg-[#404040] p-4 rounded-xl">
+                    <div className="bg-[#404040] rounded-xl">
+                        <div className="flex font-bold">
+                            <div className="bg-[#9B30FF] rounded-tl-xl p-2 px-4">1</div>
+                            <div className="bg-[#5F666D] w-full rounded-tr-xl p-2 px-4">Pilih Nominal</div>
+                        </div>
                         {/* Special Items */}
-                        <div>
+                        <div className="p-4">
                             <h2 className="text-sm sm:text-lg font-semibold mb-2">Special Items</h2>
                             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
                                 {specialPrice.map((item, index) => (
-                                    <div key={index} className="bg-[#333333] p-2 sm:p-4 rounded-xl flex cursor-pointer border-2 border-[#333333] hover:border-[#9B30FF] items-center justify-between">
+                                    <div key={index} className="bg-[#5F666D] p-2 sm:p-4 rounded-xl flex cursor-pointer border-2 border-[#5F666D] hover:border-[#9B30FF] items-center justify-between">
                                         <div>
                                             <p className="text-sm">{item.name}</p>
-                                            <p className="text-gray-400 text-xs">Rp.   {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(item.price).replace("Rp", "").trim()}</p>
+                                            <p className="text-gray-300 text-xs">Rp.   {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(item.price).replace("Rp", "").trim()}</p>
                                         </div>
                                         <div>
                                             <img src={item.image} alt={item.name} className="w-8 h-8 sm:w-10 sm:h-10" />
@@ -80,14 +84,14 @@ export default function DetailTopUp() {
                         </div>
 
                         {/* Top Up Instant */}
-                        <div>
+                        <div className="p-4">
                             <h2 className="text-sm sm:text-lg font-semibold mb-2">Special Items</h2>
                             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
                                 {instantPrice.map((item, index) => (
-                                    <div key={index} className="bg-[#333333] p-2 sm:p-4 rounded-xl flex cursor-pointer border-2 border-[#333333] hover:border-[#9B30FF] items-center justify-between">
+                                    <div key={index} className="bg-[#5F666D] p-2 sm:p-4 rounded-xl flex cursor-pointer border-2 border-[#5F666D] hover:border-[#9B30FF] items-center justify-between">
                                         <div>
                                             <p className="text-sm">{item.name}</p>
-                                            <p className="text-gray-400 text-xs">Rp.   {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(item.price).replace("Rp", "").trim()}</p>
+                                            <p className="text-gray-300 text-xs">Rp.   {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(item.price).replace("Rp", "").trim()}</p>
                                         </div>
                                         <div>
                                             <img src={item.image} alt={item.name} className="w-8 h-8 sm:w-10 sm:h-10" />
