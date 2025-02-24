@@ -9,6 +9,8 @@ import productData from "@/constants/product.json";
 import { MdOutlineLeaderboard } from "react-icons/md";
 import { TbTransactionDollar } from "react-icons/tb";
 import { Link } from "react-router-dom";
+import { PiMagnifyingGlass } from "react-icons/pi";
+import { LiaTimesSolid } from "react-icons/lia";
 
 type Product = {
     code: string;
@@ -28,6 +30,11 @@ const Header = () => {
     const [scrolled, setScrolled] = useState(false);
     const [query, setQuery] = useState("");
     const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
+    const [searchOpen, setSearchOpen] = useState(false);
+
+    const toggleSearch = () => {
+        setSearchOpen(!searchOpen);
+    };
 
     const menu = [
         { title: "Topup", link: "Lorem", icon: <IoBagHandleOutline /> },
@@ -177,12 +184,83 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <button
-                    onClick={() => setNavOpen(true)}
-                    className="block md:hidden text-white py-5 cursor-pointer"
-                >
-                    <FaBars size={22} />
-                </button>
+                <div className="flex gap-2">
+                    <button
+                        className="block md:hidden text-white py-5 cursor-pointer"
+                        onClick={toggleSearch}
+                    >
+                        {searchOpen ? (
+                            <LiaTimesSolid size={36} className="border border-white/10 p-2 rounded-md" />
+                        ) : (
+                            <PiMagnifyingGlass size={36} className="border border-white/10 p-2 rounded-md" />
+                        )}
+                    </button>
+                    <button
+                        onClick={() => setNavOpen(true)}
+                        className="block md:hidden text-white py-5 cursor-pointer"
+                    >
+                        <FaBars size={36} className="border border-white/10 p-2 rounded-md" />
+                    </button>
+                </div>
+                {/* Search Input untuk Mobile */}
+                {searchOpen && (
+                    <div className="absolute top-20 left-0 right-0 md:hidden">
+                        <div className="bg-[#1A1A1A] border-b border-white/10 px-4 py-2">
+                            <div className="relative text-white">
+                                <div className="absolute inset-y-0 start-0 flex items-center ps-3.5 pointer-events-none">
+                                    <FaSearch />
+                                </div>
+                                <input
+                                    type="text"
+                                    className="bg-[#333333] text-white text-sm rounded-lg focus:ring-[#9B30FF] focus:border-[#9B30FF] block w-full ps-10 p-2"
+                                    placeholder="Cari Game atau Voucher"
+                                    value={query}
+                                    onChange={handleSearch}
+                                />
+                                {query && (
+                                    <div
+                                        className="absolute inset-y-0 end-0 flex items-center pr-2 cursor-pointer"
+                                        onClick={clearSearch}
+                                    >
+                                        <FaTimes />
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                        {query && (
+                            <div className="px-4">
+                                <div className="mt-[1px] bg-[#1A1A1A] border border-[#333333] p-3 rounded-l-lg shadow-lg w-full max-h-[400px] overflow-y-auto">
+                                    {filteredProducts.length > 0 ? (
+                                        filteredProducts.map((product) => (
+                                            <Link
+                                                to={`/topup/${product.code}`}
+                                                key={product.code}
+                                                className="flex items-center gap-4 p-1.5 hover:bg-[#9B30FF50] rounded-lg cursor-pointer"
+                                            >
+                                                <img
+                                                    src={product.thumbnail}
+                                                    alt={product.title}
+                                                    className="h-16 w-16 rounded-xl"
+                                                />
+                                                <div>
+                                                    <p className="text-white font-semibold">
+                                                        {highlightMatch(product.title, query)}
+                                                    </p>
+                                                    <p className="text-gray-400 text-xs">
+                                                        {product.publisher}
+                                                    </p>
+                                                </div>
+                                            </Link>
+                                        ))
+                                    ) : (
+                                        <p className="text-gray-400 text-xs p-2">Tidak ada hasil ditemukan.</p>
+                                    )}
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                )}
+
             </header>
 
             {/* Mobile Navigation */}
