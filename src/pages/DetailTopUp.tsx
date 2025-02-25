@@ -1,17 +1,18 @@
-import { Fragment, useEffect } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import productData from "@/constants/product.json";
 import topupData from "@/constants/topup.json";
 import { Card, Footer, Header, NotFound } from "@/components";
 import BannerFoot from "./BannerFoot";
-import { FaBoltLightning } from "react-icons/fa6";
+import { FaBoltLightning, FaMinus, FaPlus } from "react-icons/fa6";
 import { IoIosChatbubbles } from "react-icons/io";
 import { IoBagHandleOutline, IoDiamond } from "react-icons/io5";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
-import { FaMinus, FaPlus } from "react-icons/fa";
 
 export default function DetailTopUp() {
     const { code } = useParams<{ code: string }>();
+    const [wishlist, setWishlist] = useState<{ name: string; price: number; image: string }[]>([]);
+
     const allProducts = productData.data.flatMap(item => item.products);
     const topup = allProducts.find((item) => item.code === code);
 
@@ -26,6 +27,15 @@ export default function DetailTopUp() {
     if (!topup) {
         return <NotFound />;
     }
+
+    const addToWishlist = (item: { name: string; price: number; image: string }) => {
+        setWishlist((prev) => {
+            if (prev.find((wishlistItem) => wishlistItem.name === item.name)) {
+                return prev;
+            }
+            return [...prev, item];
+        });
+    };
 
     return (
         <Fragment>
@@ -68,14 +78,16 @@ export default function DetailTopUp() {
                             <h2 className="text-sm sm:text-base font-semibold mb-2">Special Items</h2>
                             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
                                 {specialPrice.map((item, index) => (
-                                    <div key={index} className="bg-[#5F666D] p-2 sm:p-4 rounded-xl flex cursor-pointer border-2 border-[#5F666D] hover:border-[#9B30FF] items-center justify-between">
+                                    <div
+                                        key={index}
+                                        className="bg-[#5F666D] p-2 sm:p-4 rounded-xl flex cursor-pointer border-2 border-[#5F666D] hover:border-[#9B30FF] items-center justify-between"
+                                        onClick={() => addToWishlist(item)}
+                                    >
                                         <div>
                                             <p className="text-sm">{item.name}</p>
-                                            <p className="text-gray-300 text-xs">Rp.   {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(item.price).replace("Rp", "").trim()}</p>
+                                            <p className="text-gray-300 text-xs">Rp. {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(item.price).replace("Rp", "").trim()}</p>
                                         </div>
-                                        <div>
-                                            <img src={item.image} alt={item.name} className="w-8 h-8 sm:w-10 sm:h-10" />
-                                        </div>
+                                        <img src={item.image} alt={item.name} className="w-8 h-8 sm:w-10 sm:h-10" />
                                     </div>
                                 ))}
                             </div>
@@ -86,14 +98,16 @@ export default function DetailTopUp() {
                             <h2 className="text-sm sm:text-base font-semibold mb-2">Top Up Instant</h2>
                             <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
                                 {instantPrice.map((item, index) => (
-                                    <div key={index} className="bg-[#5F666D] p-2 sm:p-4 rounded-xl flex cursor-pointer border-2 border-[#5F666D] hover:border-[#9B30FF] items-center justify-between">
+                                    <div
+                                        key={index}
+                                        className="bg-[#5F666D] p-2 sm:p-4 rounded-xl flex cursor-pointer border-2 border-[#5F666D] hover:border-[#9B30FF] items-center justify-between"
+                                        onClick={() => addToWishlist(item)}
+                                    >
                                         <div>
                                             <p className="text-sm">{item.name}</p>
-                                            <p className="text-gray-300 text-xs">Rp.   {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(item.price).replace("Rp", "").trim()}</p>
+                                            <p className="text-gray-300 text-xs">Rp. {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(item.price).replace("Rp", "").trim()}</p>
                                         </div>
-                                        <div>
-                                            <img src={item.image} alt={item.name} className="w-8 h-8 sm:w-10 sm:h-10" />
-                                        </div>
+                                        <img src={item.image} alt={item.name} className="w-8 h-8 sm:w-10 sm:h-10" />
                                     </div>
                                 ))}
                             </div>
@@ -113,6 +127,7 @@ export default function DetailTopUp() {
                         </div>
                     </Card>
 
+                    {/* Bantuan */}
                     <Card>
                         <div className="p-4 cursor-pointer">
                             <div className="flex gap-4 items-center">
@@ -126,15 +141,36 @@ export default function DetailTopUp() {
                     </Card>
                 </div>
             </div>
+
+            {/* Wishlist */}
             <div className="fixed bottom-0 w-full text-white bg-[#1F1F1F] space-y-4 z-10 rounded-t-md p-4">
-                <div className="text-xs border-dotted border-white border rounded-lg text-center py-5">
-                    Belum ada item produk yang dipilih.
-                </div>
-                <div className="w-full flex items-center justify-center gap-2 py-1.5 bg-[#9B30FF] rounded-lg text-center">
+                {wishlist.length === 0 ? (
+                    <div className="text-xs border-dotted border-white/10 border-2 rounded-lg text-center py-5">
+                        Belum ada item produk yang dipilih.
+                    </div>
+                ) : (
+                    <div className="border-2 border-dotted border-white/10 rounded-lg p-4">
+                        <h2 className="text-sm font-bold mb-2">Wishlist</h2>
+                        <div className="space-y-2">
+                            {wishlist.map((item, index) => (
+                                <div key={index} className="flex items-center justify-between">
+                                    <div className="flex items-center gap-2">
+                                        <img src={item.image} alt={item.name} className="w-6 h-6" />
+                                        <p className="text-sm">{item.name}</p>
+                                    </div>
+                                    <p className="text-sm">Rp. {new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(item.price).replace("Rp", "").trim()}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
+
+                <div className="w-full flex items-center justify-center gap-2 py-1.5 bg-[#9B30FF] rounded-lg text-center cursor-pointer">
                     <IoBagHandleOutline className="w-5 h-5" />
                     <p className="text-sm font-bold">Pesan Sekarang!</p>
                 </div>
             </div>
+
             <BannerFoot />
             <Footer />
         </Fragment>
