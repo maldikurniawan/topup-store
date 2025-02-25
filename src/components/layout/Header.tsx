@@ -137,6 +137,7 @@ const Header = () => {
                                             <Link
                                                 to={`/topup/${product.code}`}
                                                 key={product.code}
+                                                onClick={clearSearch}
                                                 className="flex items-center gap-4 p-1.5 hover:bg-[#9B30FF50] rounded-lg cursor-pointer"
                                             >
                                                 <img
@@ -235,6 +236,7 @@ const Header = () => {
                                             <Link
                                                 to={`/topup/${product.code}`}
                                                 key={product.code}
+                                                onClick={clearSearch}
                                                 className="flex items-center gap-4 p-1.5 hover:bg-[#9B30FF50] rounded-lg cursor-pointer"
                                             >
                                                 <img
