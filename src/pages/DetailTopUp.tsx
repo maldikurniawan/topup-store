@@ -21,7 +21,8 @@ export default function DetailTopUp() {
     const [selectedItem, setSelectedItem] = useState<any | null>(null);
     const [quantity, setQuantity] = useState(1);
     const [isOpen, setIsOpen] = useState(false);
-    const totalPayment = selectedItem ? selectedItem.price * quantity : 0;
+    const taxRate = 0.12; // 12% pajak
+    const totalPayment = selectedItem ? selectedItem.price * quantity * (1 + taxRate) : 0;
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -53,7 +54,11 @@ export default function DetailTopUp() {
 
     const handlePayment = () => {
         const virtualAccount = generateVirtualAccount();
-        alert(`Proses pembayaran, mohon bayar sebelum batas waktu.\nNomor Virtual Account: ${virtualAccount}`);
+        const now = new Date();
+        now.setHours(now.getHours() + 24);
+        const deadline = now.toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' });
+
+        alert(`Proses pembayaran!\nMohon bayar sebelum ${deadline} WIB\nVA: ${virtualAccount}`);
     };
 
     return (
@@ -198,9 +203,13 @@ export default function DetailTopUp() {
                                     <p>Harga</p>
                                     <p>Rp. {selectedItem.price.toLocaleString('id-ID')}</p>
                                 </div>
-                                <div className="w-full flex justify-between border-b pb-1 border-white/10">
+                                <div className="w-full flex justify-between">
                                     <p>Jumlah Pembelian</p>
                                     <p>{quantity}</p>
+                                </div>
+                                <div className="w-full flex justify-between border-b pb-1 border-white/10">
+                                    <p>Pajak</p>
+                                    <p>{taxRate * 100}%</p>
                                 </div>
                                 <div className="w-full flex justify-between font-bold text-sm">
                                     <p>Total Pembayaran</p>
