@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
 import productData from "@/constants/product.json";
 import topupData from "@/constants/topup.json";
@@ -21,6 +21,7 @@ export default function DetailTopUp() {
     const [selectedItem, setSelectedItem] = useState<any | null>(null);
     const [quantity, setQuantity] = useState(1);
     const [isOpen, setIsOpen] = useState(false);
+    const cardRef = useRef<HTMLDivElement | null>(null);
     const taxRate = 0.12; // 12% pajak
     const totalPayment = selectedItem ? selectedItem.price * quantity * (1 + taxRate) : 0;
 
@@ -35,6 +36,9 @@ export default function DetailTopUp() {
     const handleSelectItem = (item: any) => {
         setSelectedItem(item);
         setQuantity(1);
+        setTimeout(() => {
+            cardRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 100);
     };
 
     const increaseQuantity = () => setQuantity((prev) => prev + 1);
@@ -142,23 +146,25 @@ export default function DetailTopUp() {
                     </Card>
 
                     {/* Jumlah Pembelian */}
-                    <Card number="2" title="Masukkan Jumlah Pembelian">
-                        <div className="p-4">
-                            <form className="w-full flex gap-4">
-                                <input
-                                    type="text"
-                                    value={quantity}
-                                    onChange={handleQuantityChange}
-                                    className="w-full bg-[#5F666D] rounded-md h-9 ps-3 text-white"
-                                    min="1"
-                                />
-                                <div className="flex items-center gap-2">
-                                    <FaPlus className="bg-[#9B30FF] p-2 w-9 h-9 rounded-md cursor-pointer" onClick={increaseQuantity} />
-                                    <FaMinus className="bg-[#9B30FF] p-2 w-9 h-9 rounded-md cursor-pointer" onClick={decreaseQuantity} />
-                                </div>
-                            </form>
-                        </div>
-                    </Card>
+                    <div ref={cardRef}>
+                        <Card number="2" title="Masukkan Jumlah Pembelian">
+                            <div className="p-4">
+                                <form className="w-full flex gap-4">
+                                    <input
+                                        type="text"
+                                        value={quantity}
+                                        onChange={handleQuantityChange}
+                                        className="w-full bg-[#5F666D] rounded-md h-9 ps-3 text-white"
+                                        min="1"
+                                    />
+                                    <div className="flex items-center gap-2">
+                                        <FaPlus className="bg-[#9B30FF] p-2 w-9 h-9 rounded-md cursor-pointer" onClick={increaseQuantity} />
+                                        <FaMinus className="bg-[#9B30FF] p-2 w-9 h-9 rounded-md cursor-pointer" onClick={decreaseQuantity} />
+                                    </div>
+                                </form>
+                            </div>
+                        </Card>
+                    </div>
 
                     {/* Bantuan */}
                     <Card>
