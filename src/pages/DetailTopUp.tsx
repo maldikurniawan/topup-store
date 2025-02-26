@@ -4,9 +4,9 @@ import productData from "@/constants/product.json";
 import topupData from "@/constants/topup.json";
 import { Card, Footer, Header, NotFound } from "@/components";
 import BannerFoot from "./BannerFoot";
-import { FaBoltLightning, FaMinus, FaPlus, FaChevronUp, FaChevronDown } from "react-icons/fa6";
+import { FaBoltLightning, FaMinus, FaPlus, FaChevronUp, FaChevronDown, FaSackDollar } from "react-icons/fa6";
 import { IoIosChatbubbles } from "react-icons/io";
-import { IoBagHandleOutline, IoDiamond } from "react-icons/io5";
+import { IoBagHandleOutline } from "react-icons/io5";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 
 export default function DetailTopUp() {
@@ -44,6 +44,18 @@ export default function DetailTopUp() {
         setQuantity(value > 0 ? value : 1);
     };
 
+    const generateVirtualAccount = () => {
+        const bankCode = ["008", "009", "002", "014", "022"]; // Contoh kode bank (BNI, BRI, BCA, Mandiri, CIMB)
+        const randomBank = bankCode[Math.floor(Math.random() * bankCode.length)];
+        const randomNumber = Math.floor(1000000000 + Math.random() * 9000000000); // 10 digit acak
+        return `${randomBank}${randomNumber}`;
+    };
+
+    const handlePayment = () => {
+        const virtualAccount = generateVirtualAccount();
+        alert(`Proses pembayaran, mohon bayar sebelum batas waktu.\nNomor Virtual Account: ${virtualAccount}`);
+    };
+
     return (
         <Fragment>
             <Header />
@@ -66,12 +78,12 @@ export default function DetailTopUp() {
                                 <span>Proses Cepat</span>
                             </div>
                             <div className="text-white flex items-center gap-1 font-medium whitespace-nowrap">
-                                <IoIosChatbubbles className="text-green-400" />
+                                <IoIosChatbubbles className="text-blue-400" />
                                 <span>Layanan Chat 24/7</span>
                             </div>
                             <div className="text-white flex items-center gap-1 font-medium whitespace-nowrap">
-                                <IoDiamond className="text-[#B9F2FF]" />
-                                <span>Diamonds</span>
+                                <FaSackDollar className="text-green-400" />
+                                <span>Harga Murah!</span>
                             </div>
                         </div>
                     </div>
@@ -203,10 +215,17 @@ export default function DetailTopUp() {
                     </div>
                 )}
 
-                <div className="w-full flex items-center justify-center gap-2 py-1.5 bg-[#9B30FF] rounded-lg cursor-pointer">
-                    <IoBagHandleOutline className="w-5 h-5" />
-                    <p className="text-sm font-bold">Pesan Sekarang!</p>
-                </div>
+                {selectedItem ? (
+                    <button onClick={handlePayment} className="w-full flex items-center justify-center gap-2 py-1.5 bg-[#9B30FF] rounded-lg cursor-pointer">
+                        <IoBagHandleOutline className="w-5 h-5" />
+                        <p className="text-sm font-bold">Pesan Sekarang!</p>
+                    </button>
+                ) : (
+                    <button className="w-full flex items-center justify-center gap-2 py-1.5 bg-[#9B30FF] rounded-lg cursor-pointer">
+                        <IoBagHandleOutline className="w-5 h-5" />
+                        <p className="text-sm font-bold">Pesan Sekarang!</p>
+                    </button>
+                )}
             </div>
 
             <BannerFoot />
