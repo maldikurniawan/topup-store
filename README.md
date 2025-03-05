@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
+# Topup Game Store Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Tampilan Game](https://raw.githubusercontent.com/maldikurniawan/portfolio/refs/heads/main/public/assets/storeku.png)
 
-Currently, two official plugins are available:
+## Deskripsi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Topup Game Store adalah platform berbasis web yang memungkinkan pengguna untuk membeli kredit atau item dalam game dengan mudah dan cepat. Dibangun menggunakan **ReactJS** dan **TypeScript**, platform ini memiliki tampilan modern dan responsif.
 
-## Expanding the ESLint configuration
+## Fitur
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Topup Berbagai Game**: Mendukung berbagai game populer seperti Mobile Legends, Free Fire, PUBG, dan lainnya.
+- **Antarmuka Responsif**: Desain yang dapat diakses dari berbagai perangkat, baik desktop maupun mobile.
 
-- Configure the top-level `parserOptions` property like this:
+## Teknologi yang Digunakan
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **ReactJS** + **TypeScript** untuk pengembangan front-end.
+- **Tailwind CSS** untuk tampilan yang modern dan responsif.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Instalasi dan Penggunaan
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone repositori ini:
+   ```sh
+   git clone https://github.com/maldikurniawan/topup-store.git
+   ```
+2. Masuk ke folder proyek:
+   ```sh
+   cd topup-store
+   ```
+3. Instal dependensi:
+   ```sh
+   npm install
+   ```
+4. Jalankan aplikasi:
+   ```sh
+   npm run dev
+   ```
+5. Buka di browser:
+   ```sh
+   http://localhost:5173
+   ```
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Demo
+
+Anda dapat melihat demo platform ini di sini: [Topup Game Store](https://storeku.vercel.app/)
